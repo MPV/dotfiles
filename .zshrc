@@ -30,3 +30,6 @@ antigen apply
 
 # Helm:
 #source <(helm completion zsh)
+
+# Source local extra (private) settings specific to machine if it exists
+[ -f ~/.zsh.local ] && source ~/.zsh.local
