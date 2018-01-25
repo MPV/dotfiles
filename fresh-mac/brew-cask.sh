@@ -42,3 +42,6 @@ brew cask install messenger
 brew cask install rocket
 brew cask install spotify
 brew cask install virtualbox
+
+brew tap caskroom/fonts
+brew cask install font-fira-code 
