@@ -10,7 +10,9 @@ brew cask install google-backup-and-sync			# Google Drive sync
 brew cask install iterm2
 brew cask install messenger
 brew cask install rocket
+brew cask install sequel-pro
 brew cask install spotify
+brew cask install vagrant
 brew cask install virtualbox
 
 brew cask install qlmarkdown									# Quicklook Markdown files
