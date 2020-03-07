@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# Install tools using Homebrew:
+# Based on: https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh
+
+# Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -19,6 +21,9 @@ brew install coreutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 #brew install gnu-sed --with-default-names
 
+# Install GnuPG to enable PGP-signing commits (and installing NodeJS).
+brew install gnupg
+
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install grep
@@ -29,6 +34,7 @@ brew install screen
 brew install wget
 brew install curl
 brew install git
+brew install git-lfs
 brew install ack
 brew install tree
 
@@ -37,8 +43,15 @@ brew install jid
 brew install jq
 
 brew install asdf	# Dependency manager ASDF
+brew install \
+  coreutils automake autoconf openssl \
+  libyaml readline libxslt libtool unixodbc \
+  unzip curl
+# ...for installing asdf plugins
 
 brew install zsh
 brew install antigen	# ZSH plugin manager
+brew install starship
 
-brew cleanup		# Remove outdated versions from the cellar.
+# Remove outdated versions from the cellar.
+brew cleanup
