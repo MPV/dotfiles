@@ -28,6 +28,9 @@
         excludesfile = ~/.gitignore
         editor = code --wait
 
+[commit]
+        verbose = true
+
 # Use separate file for username / github token / etc
 [include]
         path = ~/.gitconfig.local
