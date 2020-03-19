@@ -4,9 +4,12 @@ source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle git
-antigen bundle osx
-antigen bundle command-not-found
+antigen bundle asdf
+antigen bundle docker
+antigen bundle helm
+antigen bundle kubectl
+antigen bundle terraform
+#antigen bundle per-directory-history # https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins#per-directory-history
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -15,21 +18,35 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 
 # Load the theme.
-antigen theme cloud
+#antigen theme cloud
+#antigen theme denysdovhan/spaceship-prompt
+antigen theme https://github.com/iam4x/zsh-iterm-touchbar
 
 # Tell Antigen that you're done.
 antigen apply
 
-# ASDF version manager:
-#source /usr/local/opt/asdf/asdf.sh
-#source /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
-
 # Google Cloud SDK (gcloud etc):
-#source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-#source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
-# Helm:
-#source <(helm completion zsh)
+# Starship
+eval "$(starship init zsh)"
+
+# Load the shell dotfiles, and then some:
+# * ~/.path can be used to extend `$PATH`.
+# * ~/.extra can be used for other settings you don’t want to commit.
+for file in ~/.{exports,aliases}; do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
+# iTerm2 "shell integration", see:
+# https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+function iterm2_print_user_vars() {
+  iterm2_set_user_var starship "$(starship prompt)"
+}
 
 # Source local extra (private) settings specific to machine if it exists
 [ -f ~/.zsh.local ] && source ~/.zsh.local
