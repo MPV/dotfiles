@@ -25,7 +25,8 @@
         untracked = red reverse
 
 [core]
-  excludesfile = ~/.gitignore
+        excludesfile = ~/.gitignore
+        editor = code --wait
 
 # Use separate file for username / github token / etc
 [include]
