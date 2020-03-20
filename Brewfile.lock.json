@@ -117,9 +117,6 @@
               "sha256": "d8c36b430ff928f72b33bad666f1ae2170802e85b8b51594c953e583fd4f11be"
             }
           }
-        },
-        "options": {
-          "link": true
         }
       },
       "coreutils": {
@@ -788,7 +785,28 @@
       },
       "fabianishere/personal/pam_reattach": null,
       "koekeishiya/formulae/skhd": null,
-      "koekeishiya/formulae/yabai": null
+      "koekeishiya/formulae/yabai": null,
+      "python": {
+        "version": "3.7.7",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.catalina.bottle.tar.gz",
+              "sha256": "acd595852aecc2bfa46c57d86db716e64d57bb2753c45ff7f745b46c7655dd65"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.mojave.bottle.tar.gz",
+              "sha256": "cc8177d823b39d099e1f1a6f2e0fccb16e531508b59580f1fd44f659b54eeb84"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.high_sierra.bottle.tar.gz",
+              "sha256": "079ace2d46b98d9931f14fbb6e02d883fedf0333faabcbaf552b12553325f4b6"
+            }
+          }
+        }
+      }
     },
     "cask": {
       "1password": {
@@ -1073,7 +1091,7 @@
       },
       "OmniFocus": {
         "id": "1346203938",
-        "version": "3.6.1"
+        "version": "3.6.2"
       },
       "Pages": {
         "id": "409201541",
@@ -1094,6 +1112,10 @@
       "Twitter": {
         "id": "1482454543",
         "version": "8.13"
+      },
+      "Amphetamine": {
+        "id": "937984704",
+        "version": "5.0.1"
       }
     }
   },
