@@ -91,6 +91,7 @@ mas "FuzzyTime", id: 950297057
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
 mas "KubeContext", id: 1438838068
 mas "Numbers", id: 409203825
 mas "OmniFocus", id: 1346203938
