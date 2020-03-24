@@ -15,5 +15,5 @@ ln -s ${PARENT_PATH}/.yabairc
 ln -s ${PARENT_PATH}/.zshrc
 ln -s ${PARENT_PATH}/.config/starship.toml ~/.config/
 ln -s ${PARENT_PATH}/.ssh/personal.include ~/.ssh/
-#ln -s ${PARENT_PATH}/Brewfile
+ln -s ${PARENT_PATH}/Brewfile
 
