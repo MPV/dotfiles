@@ -18,6 +18,7 @@ brew "unixodbc"
 brew "asdf"
 brew "awscli"
 brew "bash"
+brew "cmatrix"
 brew "curl"
 brew "gettext", link: true
 brew "git"
@@ -31,6 +32,7 @@ brew "libxslt"
 brew "mas"
 brew "moreutils"
 brew "openssh"
+brew "qemu"
 brew "rancher-cli"
 brew "rke"
 brew "screen"
@@ -93,6 +95,7 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "KubeContext", id: 1438838068
+mas "Messenger", id: 1480068668
 mas "Numbers", id: 409203825
 mas "OmniFocus", id: 1346203938
 mas "Pages", id: 409201541
