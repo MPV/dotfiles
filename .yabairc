@@ -47,15 +47,15 @@ yabai -m config window_gap                   0 # 10
 # ====== List of rules =========================
 
 yabai -m rule --add label="Finder" app="^Finder$" title="(Kopiera|Anslut|Flytta|info|Finder-inställningar)" manage=off topmost=on border=off
-# yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
 yabai -m rule --add label="System Preferences" title="^Systeminställningar$" manage=off border=off
+# yabai -m rule --add label="OmniFocus" app="OmniFocus" title="Perspectives" manage=off border=off
+# yabai -m rule --add label="OmniFocus" app="OmniFocus" title=".* Preferences$" manage=off border=off
+yabai -m rule --add label="Tandem" app="Tandem" manage=off border=off
+
 # yabai -m rule --add label="App Store" app="^App Store$" manage=off
 # yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
-yabai -m rule --add label="Tandem" app="Tandem" manage=off border=off
 # yabai -m rule --add label="Calculator" app="^Calculator$" manage=off
 # yabai -m rule --add label="Dictionary" app="^Dictionary$" manage=off
-# yabai -m rule --add label="mpv" app="^mpv$" manage=off
-yabai -m rule --add app="OmniFocus" title="Perspectives" manage=off border=off
-yabai -m rule --add app="OmniFocus" title=".* Preferences$" manage=off border=off
+# yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
 
 echo "yabai configuration loaded.."
