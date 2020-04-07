@@ -2,7 +2,45 @@
 
 ## Usage:
 
-...
+### On a new computer:
+
+1. Configure MacOS specific settings:
+
+    ```shell
+    ./fresh-mac/macos.sh
+    ```
+
+2. Install software:
+
+    ```shell
+    ./Brewfile-install.sh
+    ```
+
+3. Symlink configuration files:
+
+    ```shell
+    ./fresh-mac/symlink.sh
+    ```
+
+4. Install tools that require multiple and/or specific versions, using ASDF:
+
+    ```shell
+    ./fresh-mac/asdf.py
+    ```
+
+### Daily / recurring usage:
+
+* Upgrade installed tools:
+
+    ```shell
+    ./Brewfile-install.sh
+    ```
+
+* Add newly (manually) installed tools to version control:
+
+    ```shell
+    ./Brewfile-dump.sh
+    ```
 
 ## TODOs
 
