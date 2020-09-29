@@ -33,6 +33,9 @@ defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryCli
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+# Enable key repeat (instead of special characters popup)
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 ###############################################################################
 # Finder                                                                      #
 ###############################################################################
