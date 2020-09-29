@@ -46,6 +46,7 @@ symbol = " "
 
 [java]
 symbol = " "
+disabled = true
 
 [memory_usage]
 symbol = " "
