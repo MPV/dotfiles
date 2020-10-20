@@ -34,6 +34,11 @@ discharging_symbol = ""
 [conda]
 symbol = " "
 
+[gcloud]
+#format = 'on [$symbol (\($project @ $region\))]($style) '
+format = 'on [$symbol ($project)]($style) '
+disabled = true
+
 [git_branch]
 symbol = " "
 #disabled = true
