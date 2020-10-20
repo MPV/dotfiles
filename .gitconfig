@@ -34,6 +34,9 @@
 [pull]
 	ff = only
 
+[diff]
+	colorMoved = default
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -43,4 +46,3 @@
 # Use separate file for username / github token / etc
 [include]
         path = ~/.gitconfig.local
-
