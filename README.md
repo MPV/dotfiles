@@ -48,6 +48,7 @@
 - [ ] Add iTerm2 default profile
 - [ ] Try out [strap](https://github.com/MikeMcQuaid/strap) for running this
 - [ ] Re-consider [Mackup](https://github.com/lra/mackup) for wider support for application preferences (too)
+- [ ] Add Visual Studio Code config/extensions
 
 
 ## Inspiration
