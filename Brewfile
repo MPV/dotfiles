@@ -125,23 +125,23 @@ cask "virtualbox"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
+mas "Aperture", id: 408981426
 mas "Aware", id: 1082170746
 mas "BetterSnapTool", id: 417375580
 mas "Colors for Hue", id: 581915465
 mas "FuzzyTime", id: 950297057
 mas "GarageBand", id: 682658836
+mas "Horo", id: 1437226581
 mas "iMovie", id: 408981434
 mas "IP Scanner", id: 404167149
-mas "Irvue", id: 1039633667
+mas "iPhoto", id: 408981381
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "KubeContext", id: 1438838068
-mas "Mactracker", id: 430255202
 mas "MarkdownLife", id: 594391345
+mas "Messenger", id: 1480068668
 mas "Momentum", id: 1030442215
-mas "Noizio", id: 928871589
 mas "Numbers", id: 409203825
-mas "OmniFocus", id: 867299399
 mas "OmniFocus", id: 1346203938
 mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
@@ -156,3 +156,4 @@ mas "Slack", id: 803453959
 mas "Todoist", id: 585829637
 mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
+mas "Xcode", id: 497799835
