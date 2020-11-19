@@ -14,6 +14,7 @@ brew "libyaml"
 brew "readline"
 brew "asdf"
 brew "sqlite"
+brew "python@3.9"
 brew "awscli"
 brew "azure-cli"
 brew "bash"
@@ -23,6 +24,7 @@ brew "libpng"
 brew "freetype"
 brew "gettext"
 brew "glib"
+brew "cairo"
 brew "cfssl"
 brew "curl"
 brew "dive"
@@ -32,7 +34,10 @@ brew "e2fsprogs"
 brew "exercism"
 brew "ext2fuse"
 brew "icu4c"
+brew "harfbuzz"
 brew "jpeg"
+brew "libass"
+brew "libbluray"
 brew "ffmpeg"
 brew "gcc@4.9"
 brew "gh"
@@ -63,7 +68,6 @@ brew "ncdu"
 brew "nvm"
 brew "openssh"
 brew "postgresql"
-brew "python@3.9"
 brew "qemu"
 brew "rancher-cli"
 brew "redis"
@@ -126,16 +130,15 @@ cask "virtualbox"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
-mas "Aperture", id: 408981426
 mas "Aware", id: 1082170746
 mas "BetterSnapTool", id: 417375580
 mas "Colors for Hue", id: 581915465
 mas "FuzzyTime", id: 950297057
 mas "GarageBand", id: 682658836
+mas "Homie", id: 1533590432
 mas "Horo", id: 1437226581
 mas "iMovie", id: 408981434
 mas "IP Scanner", id: 404167149
-mas "iPhoto", id: 408981381
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "KubeContext", id: 1438838068
