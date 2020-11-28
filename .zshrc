@@ -5,7 +5,10 @@ antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle asdf
+antigen bundle command-not-found
 antigen bundle docker
+antigen bundle gcloud
+antigen bundle git
 antigen bundle helm
 antigen bundle kubectl
 antigen bundle terraform
@@ -20,14 +23,10 @@ antigen bundle zsh-users/zsh-autosuggestions
 # Load the theme.
 #antigen theme cloud
 #antigen theme denysdovhan/spaceship-prompt
-antigen theme https://github.com/iam4x/zsh-iterm-touchbar
+antigen theme dracula/zsh dracula
 
 # Tell Antigen that you're done.
 antigen apply
-
-# Google Cloud SDK (gcloud etc):
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
 # Starship
 eval "$(starship init zsh)"
