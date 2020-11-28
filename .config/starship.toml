@@ -58,6 +58,7 @@ symbol = " "
 
 [nodejs]
 symbol = " "
+disabled = true
 
 [package]
 symbol = " "
@@ -67,6 +68,7 @@ symbol = " "
 
 [python]
 symbol = " "
+disabled = true
 
 [ruby]
 symbol = " "
