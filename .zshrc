@@ -47,5 +47,7 @@ function iterm2_print_user_vars() {
   iterm2_set_user_var starship "$(starship prompt)"
 }
 
+export ZSH_THEME_TERM_TITLE_IDLE="%~"
+
 # Source local extra (private) settings specific to machine if it exists
 [ -f ~/.zsh.local ] && source ~/.zsh.local
