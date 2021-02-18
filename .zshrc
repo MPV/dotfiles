@@ -51,3 +51,5 @@ export ZSH_THEME_TERM_TITLE_IDLE="%~"
 
 # Source local extra (private) settings specific to machine if it exists
 [ -f ~/.zsh.local ] && source ~/.zsh.local
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
