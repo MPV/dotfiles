@@ -22,6 +22,7 @@ export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 # Kubectl/ArgoCD diff UX improvement:
 export KUBECTL_EXTERNAL_DIFF="diff -u"
 
-if [[ -f "~/.local.exports" ]]; then
-    source "~/.local.exports"
+if [[ -f "~/.exports.local" ]]; then
+  source ~/.exports.local
 fi
+
