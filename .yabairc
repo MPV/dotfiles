@@ -61,13 +61,16 @@ yabai -m config window_gap                   0 # 10
 
 yabai -m rule --add label="Finder" app="^Finder$" title="(Kopiera|Anslut|Flytta|info|Finder-inställningar)" manage=off topmost=on border=off
 yabai -m rule --add label="System Preferences" title="^Systeminställningar$" manage=off border=off
+yabai -m rule --add label="Musik" app="Musik" title="Minispelare" manage=off border=off
 # yabai -m rule --add label="OmniFocus" app="OmniFocus" title="Perspectives" manage=off border=off
 # yabai -m rule --add label="OmniFocus" app="OmniFocus" title=".* Preferences$" manage=off border=off
 yabai -m rule --add label="Tandem" app="Tandem" manage=off border=off
 yabai -m rule --add label="Airfoil Satellite" app="Airfoil Satellite" manage=off border=off
 yabai -m rule --add label="League of Legends" app="League of Legends" manage=off border=off
-yabai -m rule --add label="Screen" app="Screen" manage=off border=off
+yabai -m rule --add label="Pop" app="Pop" manage=off border=off
 yabai -m rule --add label="Rocket" app="Rocket" manage=off border=off
+yabai -m rule --add label="IDEA" app="IntelliJ IDEA" manage=off border=off
+#yabai -m rule --add label="IDEA" app="IntelliJ IDEA" title=" - " manage=off border=off
 
 # yabai -m rule --add label="App Store" app="^App Store$" manage=off
 # yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
