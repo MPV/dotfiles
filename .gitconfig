@@ -58,6 +58,10 @@
 	process = git-lfs filter-process
 	required = true
 
+[alias]
+	unstage = reset HEAD --
+	uncommit = reset --soft HEAD^
+
 # Use separate file for username / github token / etc
 [include]
         path = ~/.gitconfig.local
