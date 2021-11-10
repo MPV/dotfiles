@@ -47,6 +47,7 @@
 
 [pull]
 	ff = only
+	rebase = true
 
 [diff]
 	colorMoved = default
