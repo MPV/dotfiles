@@ -20,3 +20,4 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Git aliases
 alias gcm='git checkout master'
+alias "g-"="git checkout -"
