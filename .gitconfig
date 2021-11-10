@@ -27,6 +27,20 @@
 [core]
         excludesfile = ~/.gitignore
         editor = code --wait
+        pager = delta
+
+[interactive]
+        diffFilter = delta --color-only
+
+[delta]
+        features = line-numbers decorations # side-by-side
+        whitespace-error-style = 22 reverse
+        syntax-theme = Dracula
+
+[delta "decorations"]
+        commit-decoration-style = bold yellow box ul
+        file-style = bold yellow ul
+        file-decoration-style = none
 
 [commit]
         verbose = true
