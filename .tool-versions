@@ -1,5 +1,5 @@
 kubectl 1.27.3
-nodejs 14.16.0
+nodejs 14.21.3
 terraform 1.5.1
 golang 1.16
 kops v1.15.2
