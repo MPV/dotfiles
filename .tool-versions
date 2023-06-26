@@ -10,7 +10,7 @@ java adoptopenjdk-openj9-11.0.11+9.openj9-0.26.0
 sbt 1.3.12
 yq 2.4.1
 tflint 0.33.0
-tfsec 0.27.0
+tfsec 0.63.1
 kubeval v0.16.1
 argocd 1.8.7
 pluto 4.0.4
