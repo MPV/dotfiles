@@ -14,7 +14,7 @@ tfsec 1.28.1
 kubeval v0.16.1
 argocd 2.7.6
 pluto 4.0.4
-kind 0.8.1
+kind 0.20.0
 skaffold 1.16.0
 tilt 0.17.10
 gcloud 307.0.0
