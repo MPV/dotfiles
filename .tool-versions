@@ -23,5 +23,5 @@ github-cli 1.13.0
 vault 1.5.3
 k3d 4.0.0
 postgres 13.4
-scala 2.13.11
+scala 2.13.12
 shellcheck 0.9.0
