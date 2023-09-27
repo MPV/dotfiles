@@ -18,5 +18,7 @@ ln -s ${PARENT_PATH}/.config/bitbar
 ln -s ${PARENT_PATH}/.ssh/personal.include ~/.ssh/
 ln -s ${PARENT_PATH}/.tmux
 ln -s ${PARENT_PATH}/.tmux.conf
+ln -s ${PARENT_PATH}/.tool-versions
+ln -s ${PARENT_PATH}/.plugin-versions
 ln -s ${PARENT_PATH}/Brewfile
 
