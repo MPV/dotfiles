@@ -38,6 +38,9 @@ discharging_symbol = ""
 [conda]
 symbol = " "
 
+[docker_context]
+disabled = true
+
 [gcloud]
 #format = 'on [$symbol (\($project @ $region\))]($style) '
 format = '[$symbol ($project)]($style) '
