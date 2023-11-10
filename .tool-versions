@@ -3,7 +3,7 @@ nodejs 20.9.0
 terraform 1.5.1
 golang 1.21.4
 kops v1.15.2
-kustomize 4.2.0
+kustomize 4.4.1
 helm 3.12.1
 yarn 1.22.4
 java adoptopenjdk-openj9-11.0.11+9.openj9-0.26.0
