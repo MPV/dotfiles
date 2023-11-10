@@ -1,0 +1,1 @@
+asdf plugin update --all
