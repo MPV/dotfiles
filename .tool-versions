@@ -19,7 +19,7 @@ skaffold 1.16.0
 tilt 0.17.10
 gcloud 447.0.0
 ytt 0.30.0
-github-cli 2.39.2
+github-cli 2.40.0
 vault 1.15.2
 k3d 4.0.0
 postgres 13.4
