@@ -26,6 +26,9 @@ function iterm2_print_user_vars() {
 
 export ZSH_THEME_TERM_TITLE_IDLE="%~"
 
+# 1Password CLI plugins
+[ -f ~/.config/op/plugins.sh ] && source ~/.config/op/plugins.sh
+
 # Source local extra (private) settings specific to machine if it exists
 [ -f ~/.zsh.local ] && source ~/.zsh.local
 
