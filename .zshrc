@@ -1,7 +1,8 @@
 # Make tab-completion work without errors (command not found: compdef)
 autoload -Uz compinit && compinit
 
-source /usr/local/opt/antidote/share/antidote/antidote.zsh
+[ -f /usr/local/opt/antidote/share/antidote/antidote.zsh ] && source /usr/local/opt/antidote/share/antidote/antidote.zsh
+[ -f /opt/homebrew/opt/antidote/share/antidote/antidote.zsh ] && source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 antidote load
 
 # Starship
