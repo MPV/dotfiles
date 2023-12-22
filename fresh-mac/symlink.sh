@@ -1,25 +1,27 @@
 #!/usr/bin/env bash -x
 
-SCRIPT_PATH=$(dirname $(realpath -s $0))
+SCRIPT_PATH=$(dirname $(realpath $0))
 PARENT_PATH=$(dirname ${SCRIPT_PATH})
 
+echo "Will symlink files from ${PARENT_PATH}"
+
 cd ~
-ln -s ${PARENT_PATH}/.aliases
-ln -s ${PARENT_PATH}/.asdfrc
-ln -s ${PARENT_PATH}/.exports
-ln -s ${PARENT_PATH}/.gitconfig
-ln -s ${PARENT_PATH}/.gitignore
-ln -s ${PARENT_PATH}/.skhdrc
-ln -s ${PARENT_PATH}/.vimrc
-ln -s ${PARENT_PATH}/.yabairc
-ln -s ${PARENT_PATH}/.zshrc
-ln -s ${PARENT_PATH}/.zsh_plugins.txt
-ln -s ${PARENT_PATH}/.config/starship.toml ~/.config/
-ln -s ${PARENT_PATH}/.config/bitbar
-ln -s ${PARENT_PATH}/.ssh/personal.include ~/.ssh/
-ln -s ${PARENT_PATH}/.tmux
-ln -s ${PARENT_PATH}/.tmux.conf
-ln -s ${PARENT_PATH}/.tool-versions
-ln -s ${PARENT_PATH}/.plugin-versions
-ln -s ${PARENT_PATH}/Brewfile
+ln -is ${PARENT_PATH}/.aliases
+ln -is ${PARENT_PATH}/.asdfrc
+ln -is ${PARENT_PATH}/.exports
+ln -is ${PARENT_PATH}/.gitconfig
+ln -is ${PARENT_PATH}/.gitignore
+ln -is ${PARENT_PATH}/.skhdrc
+ln -is ${PARENT_PATH}/.vimrc
+ln -is ${PARENT_PATH}/.yabairc
+ln -is ${PARENT_PATH}/.zshrc
+ln -is ${PARENT_PATH}/.zsh_plugins.txt
+ln -is ${PARENT_PATH}/.config/starship.toml ~/.config/
+ln -is ${PARENT_PATH}/.config/bitbar
+ln -is ${PARENT_PATH}/.ssh/personal.include ~/.ssh/
+ln -is ${PARENT_PATH}/.tmux
+ln -is ${PARENT_PATH}/.tmux.conf
+ln -is ${PARENT_PATH}/.tool-versions
+ln -is ${PARENT_PATH}/.plugin-versions
+ln -is ${PARENT_PATH}/Brewfile
 
