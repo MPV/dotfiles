@@ -9,7 +9,7 @@ yarn 1.22.4
 java adoptopenjdk-openj9-11.0.11+9.openj9-0.26.0
 sbt 1.9.7
 yq 4.6.0
-tflint 0.33.0
+tflint 0.50.3
 tfsec 1.28.1
 kubeval v0.16.1
 argocd 2.7.6
