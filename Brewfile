@@ -129,7 +129,6 @@ brew "mise"
 brew "moreutils"
 brew "nghttp2"
 brew "oci-cli"
-brew "octant"
 brew "openssh", link: false
 brew "openssl@1.1"
 brew "pam-reattach", link: false
