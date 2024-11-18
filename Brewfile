@@ -131,7 +131,7 @@ brew "moreutils"
 brew "nghttp2"
 brew "oci-cli"
 brew "openssh", link: false
-brew "openssl@1.1"
+brew "openssl@3"
 brew "openstackclient"
 brew "pam-reattach", link: false
 brew "php"
