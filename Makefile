@@ -13,7 +13,26 @@ asdf-plugin-manager-export:
 # Update all asdf plugins
 .PHONY: asdf-plugin-update-all
 asdf-plugin-update-all:
-	asdf plugin update --all
+	echo "Nope, let Renovate upgrade ASDF plugins"
+
+# Git submodule each asdf plugin from .plugin-versions file
+.PHONY: asdf-plugin-manager-submodules-init
+asdf-plugin-manager-submodules-init:
+	mkdir -p .asdf/plugins
+	asdf-plugin-manager list | while read -r name url commit; do \
+		git submodule add --name $$name $$url .asdf/plugins/$$name; \
+	done
+
+.PHONY: asdf-plugin-manager-submodules-reset
+asdf-plugin-manager-submodules-reset:
+	asdf-plugin-manager list | while read -r name url commit; do \
+		pushd .asdf/plugins/$$name; echo git checkout $$commit; popd; \
+	done
+
+# Initialize git submodules (for asdf plugins)
+.PHONY: asdf-plugin-manager-submodules-update
+asdf-plugin-manager-submodules-update:
+	git submodule update --init --recursive
 
 ### HOMEBREW
 
