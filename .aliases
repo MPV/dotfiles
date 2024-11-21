@@ -3,6 +3,10 @@
 alias tf="terraform"
 alias k="kubectl"
 
+# https://github.com/kubecolor/kubecolor#zsh
+alias kubectl="kubecolor"
+compdef kubecolor=kubectl
+
 # Based on: https://github.com/mathiasbynens/dotfiles/blob/master/.aliases
 
 

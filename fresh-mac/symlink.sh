@@ -11,6 +11,7 @@ ln -is ${PARENT_PATH}/.asdfrc
 ln -is ${PARENT_PATH}/.exports
 ln -is ${PARENT_PATH}/.gitconfig
 ln -is ${PARENT_PATH}/.gitignore
+ln -is ${PARENT_PATH}/.krewfile
 ln -is ${PARENT_PATH}/.skhdrc
 ln -is ${PARENT_PATH}/.vimrc
 ln -is ${PARENT_PATH}/.yabairc
