@@ -3,5 +3,8 @@
   "extends": [
     "config:recommended"
   ],
+  "git-submodules": {
+    "enabled": true
+  },
   "prConcurrentLimit": 30
 }

@@ -1,0 +1,138 @@
+[submodule "act"]
+	path = .asdf/plugins/act
+	url = https://github.com/grimoh/asdf-act.git
+[submodule "action-validator"]
+	path = .asdf/plugins/action-validator
+	url = https://github.com/mpalmer/action-validator.git
+[submodule "actionlint"]
+	path = .asdf/plugins/actionlint
+	url = https://github.com/crazy-matt/asdf-actionlint.git
+[submodule "amtool"]
+	path = .asdf/plugins/amtool
+	url = https://github.com/rickard-von-essen/asdf-amtool
+[submodule "argocd"]
+	path = .asdf/plugins/argocd
+	url = https://github.com/beardix/asdf-argocd.git
+[submodule "asdf-plugin-manager"]
+	path = .asdf/plugins/asdf-plugin-manager
+	url = https://github.com/asdf-community/asdf-plugin-manager.git
+[submodule "clusterctl"]
+	path = .asdf/plugins/clusterctl
+	url = https://github.com/pfnet-research/asdf-clusterctl.git
+[submodule "etcd"]
+	path = .asdf/plugins/etcd
+	url = https://github.com/particledecay/asdf-etcd.git
+[submodule "github-cli"]
+	path = .asdf/plugins/github-cli
+	url = https://github.com/bartlomiejdanek/asdf-github-cli.git
+[submodule "golang"]
+	path = .asdf/plugins/golang
+	url = https://github.com/kennyp/asdf-golang.git
+[submodule "grafana"]
+	path = .asdf/plugins/grafana
+	url = https://github.com/baysao/asdf-grafana.git
+[submodule "helm-ct"]
+	path = .asdf/plugins/helm-ct
+	url = https://github.com/tablexi/asdf-helm-ct.git
+[submodule "helm"]
+	path = .asdf/plugins/helm
+	url = https://github.com/Antiarchitect/asdf-helm.git
+[submodule "java"]
+	path = .asdf/plugins/java
+	url = https://github.com/halcyon/asdf-java.git
+[submodule "jq"]
+	path = .asdf/plugins/jq
+	url = https://github.com/azmcode/asdf-jq.git
+[submodule "k3d"]
+	path = .asdf/plugins/k3d
+	url = https://github.com/spencergilbert/asdf-k3d.git
+[submodule "kind"]
+	path = .asdf/plugins/kind
+	url = https://github.com/johnlayton/asdf-kind.git
+[submodule "kops"]
+	path = .asdf/plugins/kops
+	url = https://github.com/Antiarchitect/asdf-kops.git
+[submodule "kubebuilder"]
+	path = .asdf/plugins/kubebuilder
+	url = https://github.com/virtualstaticvoid/asdf-kubebuilder.git
+[submodule "kubectl"]
+	path = .asdf/plugins/kubectl
+	url = https://github.com/Banno/asdf-kubectl.git
+[submodule "kubeval"]
+	path = .asdf/plugins/kubeval
+	url = https://github.com/stefansedich/asdf-kubeval.git
+[submodule "kustomize"]
+	path = .asdf/plugins/kustomize
+	url = https://github.com/Banno/asdf-kustomize.git
+[submodule "maven"]
+	path = .asdf/plugins/maven
+	url = https://github.com/halcyon/asdf-maven.git
+[submodule "mc"]
+	path = .asdf/plugins/mc
+	url = https://github.com/penpyt/asdf-mc.git
+[submodule "mimirtool"]
+	path = .asdf/plugins/mimirtool
+	url = https://github.com/asdf-community/asdf-mimirtool
+[submodule "nodejs"]
+	path = .asdf/plugins/nodejs
+	url = https://github.com/asdf-vm/asdf-nodejs.git
+[submodule "oc"]
+	path = .asdf/plugins/oc
+	url = https://github.com/bartoszmajsak/asdf-oc.git
+[submodule "packer"]
+	path = .asdf/plugins/packer
+	url = https://github.com/Banno/asdf-hashicorp.git
+[submodule "php"]
+	path = .asdf/plugins/php
+	url = https://github.com/asdf-community/asdf-php.git
+[submodule "pluto"]
+	path = .asdf/plugins/pluto
+	url = https://github.com/FairwindsOps/asdf-pluto.git
+[submodule "postgres"]
+	path = .asdf/plugins/postgres
+	url = https://github.com/smashedtoatoms/asdf-postgres.git
+[submodule "promtool"]
+	path = .asdf/plugins/promtool
+	url = https://github.com/looztra/asdf-promtool
+[submodule "python"]
+	path = .asdf/plugins/python
+	url = https://github.com/danhper/asdf-python.git
+[submodule "sbt"]
+	path = .asdf/plugins/sbt
+	url = https://github.com/bram2000/asdf-sbt.git
+[submodule "scala"]
+	path = .asdf/plugins/scala
+	url = https://github.com/mtatheonly/asdf-scala.git
+[submodule "shellcheck"]
+	path = .asdf/plugins/shellcheck
+	url = https://github.com/luizm/asdf-shellcheck.git
+[submodule "skaffold"]
+	path = .asdf/plugins/skaffold
+	url = https://github.com/kristoflemmens/asdf-skaffold.git
+[submodule "terraform"]
+	path = .asdf/plugins/terraform
+	url = https://github.com/Banno/asdf-hashicorp.git
+[submodule "tflint"]
+	path = .asdf/plugins/tflint
+	url = https://github.com/skyzyx/asdf-tflint.git
+[submodule "tfsec"]
+	path = .asdf/plugins/tfsec
+	url = https://github.com/woneill/asdf-tfsec.git
+[submodule "tilt"]
+	path = .asdf/plugins/tilt
+	url = https://github.com/eaceaser/asdf-tilt.git
+[submodule "vault"]
+	path = .asdf/plugins/vault
+	url = https://github.com/Banno/asdf-hashicorp.git
+[submodule "vcluster"]
+	path = .asdf/plugins/vcluster
+	url = https://gitlab.com/wt0f/asdf-vcluster.git
+[submodule "yarn"]
+	path = .asdf/plugins/yarn
+	url = https://github.com/twuni/asdf-yarn.git
+[submodule "yq"]
+	path = .asdf/plugins/yq
+	url = https://github.com/sudermanjr/asdf-yq.git
+[submodule "ytt"]
+	path = .asdf/plugins/ytt
+	url = https://github.com/k14s/asdf-k14s.git
