@@ -32,7 +32,10 @@ asdf-plugins-restore: 	## Initialize git submodules (for asdf plugins)
 
 .PHONY: asdf-plugins-symlink
 asdf-plugins-symlink:	## Symlink asdf plugins
-	echo ln -sfn $(PWD)/.asdf/plugins/* $(HOME)/.asdf/plugins
+	asdf-plugin-manager list | while read -r name url commit; do \
+		rm -rf $(HOME)/.asdf/plugins/$$name; \
+		ln -sfn $(PWD)/.asdf/plugins/$$name $(HOME)/.asdf/plugins/$$name; \
+	done
 
 ### HOMEBREW
 
