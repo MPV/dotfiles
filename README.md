@@ -6,50 +6,49 @@
 
 1. Configure MacOS specific settings:
 
-    ```shell
-    ./fresh-mac/macos.sh
-    ```
+   ```shell
+   ./fresh-mac/macos.sh
+   ```
 
 2. Install software:
 
-    ```shell
-    ./Brewfile-install.sh
-    ```
+   ```shell
+   make brewfile-install
+   ```
 
 3. Symlink configuration files:
 
-    ```shell
-    ./fresh-mac/symlink.sh
-    ```
+   ```shell
+   ./fresh-mac/symlink.sh
+   ```
 
 4. Install tools that require multiple and/or specific versions, using ASDF:
 
-    ```shell
-    ./fresh-mac/asdf.py
-    ```
+   ```shell
+   make asdf-plugin-manager-add-all
+   ```
 
 ### Daily / recurring usage:
 
-* Upgrade installed tools:
+- Upgrade installed tools:
 
-    ```shell
-    ./Brewfile-install.sh
-    ```
+  ```shell
+  make brewfile-install
+  ```
 
-* Add newly (manually) installed tools to version control:
+- Add newly (manually) installed tools to version control:
 
-    ```shell
-    ./Brewfile-dump.sh
-    ```
+  ```shell
+  make brewfile-dump
+  ```
 
 ## TODOs
 
-- [X] Try out [Brew Bundle](https://github.com/Homebrew/homebrew-bundle) and [Brewfile](https://github.com/joshukraine/dotfiles/blob/master/Brewfile)
+- [x] Try out [Brew Bundle](https://github.com/Homebrew/homebrew-bundle) and [Brewfile](https://github.com/joshukraine/dotfiles/blob/master/Brewfile)
 - [ ] Add iTerm2 default profile
 - [ ] Try out [strap](https://github.com/MikeMcQuaid/strap) for running this
 - [ ] Re-consider [Mackup](https://github.com/lra/mackup) for wider support for application preferences (too)
 - [ ] Add Visual Studio Code config/extensions
-
 
 ## Inspiration
 
