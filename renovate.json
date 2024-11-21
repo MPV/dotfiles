@@ -6,5 +6,5 @@
   "git-submodules": {
     "enabled": true
   },
-  "prConcurrentLimit": 30
+  "prConcurrentLimit": 60
 }
