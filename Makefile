@@ -26,8 +26,9 @@ asdf-plugin-manager-submodules-init:
 .PHONY: asdf-plugin-manager-submodules-reset
 asdf-plugin-manager-submodules-reset:
 	asdf-plugin-manager list | while read -r name url commit; do \
-		pushd .asdf/plugins/$$name; echo git checkout $$commit; popd; \
+		pushd .asdf/plugins/$$name; git checkout $$commit; popd; \
 	done
+	git add .asdf/plugins
 
 # Initialize git submodules (for asdf plugins)
 .PHONY: asdf-plugin-manager-submodules-update
