@@ -16,5 +16,39 @@
       "versioningTemplate": "git"
     }
   ],
-  "prConcurrentLimit": 60
+  "prConcurrentLimit": 60,
+  "packageRules": [
+    {
+      "description": [
+        "Automerge ASDF plugins (git submodules)"
+      ],
+      "matchManagers": ["git-submodules"],
+      "matchDepNames": [".asdf/plugins/*"],
+      "automerge": true
+    },
+    {
+      "description": [
+        "Automerge ASDF versions of tools (minor & patch)",
+        "as I prefer to upgrade major versions myself",
+        "but should be fine to use latest otherwise"
+      ],
+      "matchManagers": ["asdf"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "description": [
+        "Do not automerge ASDF versions of these tools (minor)",
+        "as I prefer to upgrade minor version myself of these"
+      ],
+      "matchManagers": ["asdf"],
+      "matchUpdateTypes": ["minor"],
+      "matchDepNames": [
+        "argocd",
+        "vault",
+        "kubectl"
+      ],
+      "automerge": false
+    }
+  ]
 }
