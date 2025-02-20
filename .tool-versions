@@ -1,4 +1,4 @@
-kubectl 1.31.3
+kubectl 1.32.2
 nodejs 20.18.3
 terraform 1.5.1
 golang 1.21.5
