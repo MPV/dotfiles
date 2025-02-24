@@ -9,7 +9,7 @@
       "customType": "regex",
       "fileMatch": ["^\\.plugin-versions$"],
       "matchStrings": [
-        "(?<depName>\\S+)(?<indentation>\\W*)(?<packageName>https:\\\/\\\/github.com\\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
+        "(?<depName>\\S+)(?<indentation>\\s*)(?<packageName>https:\\\/\\\/github.com\\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
       ],
       "autoReplaceStringTemplate": "{{{depName}}}{{indentation}}{{{packageName}}} {{{newDigestShort}}}",
       "datasourceTemplate": "git-refs",
