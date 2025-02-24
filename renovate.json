@@ -11,7 +11,7 @@
       "matchStrings": [
         "(?<depName>\\S+)(?<indentation>\\s*)(?<packageName>https:\\\/\\\/github.com\\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
       ],
-      "autoReplaceStringTemplate": "{{{depName}}}{{indentation}}{{{packageName}}} {{{newDigestShort}}}",
+      "autoReplaceStringTemplate": "{{{depName}}}{{indentation}}{{{packageName}}} {{{newDigest}}}",
       "datasourceTemplate": "git-refs",
       "versioningTemplate": "git"
     }
