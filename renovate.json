@@ -9,9 +9,9 @@
       "customType": "regex",
       "fileMatch": ["^\\.plugin-versions$"],
       "matchStrings": [
-        "(?<depName>\\S+)\\W*(?<packageName>https:\\/\\/github.com\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
+        "(?<depName>\\S+)(?<indentation>\\W*)(?<registryUrl>https:\\\/\\\/github.com\\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
       ],
-      "autoReplaceStringTemplate": "{{{depName}}} {{{packageName}}} {{{newDigest}}}",
+      "autoReplaceStringTemplate": "{{{depName}}}{{indentation}}{{{registryUrl}}} {{{newDigest}}}",
       "datasourceTemplate": "git-refs",
       "versioningTemplate": "git"
     }
