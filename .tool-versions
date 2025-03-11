@@ -14,7 +14,7 @@ kubeval v0.16.1
 argocd 2.7.6
 #pluto 4.0.4
 kind 0.27.0
-skaffold 1.16.0
+skaffold 1.39.18
 #tilt 0.17.10
 #gcloud 447.0.0
 #ytt 0.30.0
