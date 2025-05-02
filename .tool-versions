@@ -9,7 +9,7 @@ java semeru-openj9-17.0.9+9_openj9-0.41.0 temurin-11.0.21+9
 sbt 1.10.11
 yq 4.45.1
 tflint 0.56.0
-tfsec 1.28.13
+tfsec 1.28.14
 kubeval v0.16.1
 argocd 2.7.6
 #pluto 4.0.4
