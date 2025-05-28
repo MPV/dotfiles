@@ -7,7 +7,7 @@ help:
 .PHONY: asdf-plugins-add-all
 asdf-plugins-add-all:	## Install all asdf plugins from .plugin-versions file
 	mkdir -p .asdf/plugins
-	asdf-plugin-manager list | while read -r name url commit; do \
+	cat .plugin-versions | while read -r name url commit; do \
 		git submodule add --name $$name $$url .asdf/plugins/$$name; \
 	done
 
@@ -21,7 +21,7 @@ asdf-plugins-update: 	## Update all asdf plugins
 
 .PHONY: asdf-plugins-reset
 asdf-plugins-reset: 	## Reset all asdf plugins to the versions specified in .plugin-versions file
-	asdf-plugin-manager list | while read -r name url commit; do \
+	cat .plugin-versions | while read -r name url commit; do \
 		pushd .asdf/plugins/$$name; git checkout $$commit; popd; \
 	done
 	git add .asdf/plugins
@@ -32,7 +32,8 @@ asdf-plugins-restore: 	## Initialize git submodules (for asdf plugins)
 
 .PHONY: asdf-plugins-symlink
 asdf-plugins-symlink:	## Symlink asdf plugins
-	asdf-plugin-manager list | while read -r name url commit; do \
+	mkdir -p ~/.asdf/plugins
+	cat .plugin-versions | while read -r name url commit; do \
 		rm -rf $(HOME)/.asdf/plugins/$$name; \
 		ln -sfn $(PWD)/.asdf/plugins/$$name $(HOME)/.asdf/plugins/$$name; \
 	done
