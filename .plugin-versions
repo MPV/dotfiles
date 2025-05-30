@@ -3,7 +3,7 @@ action-validator     https://github.com/mpalmer/action-validator.git            
 actionlint           https://github.com/crazy-matt/asdf-actionlint.git          f8df3cf
 amtool               https://github.com/rickard-von-essen/asdf-amtool           ebc8999
 argocd               https://github.com/beardix/asdf-argocd.git                 429bbf9
-asdf-plugin-manager  https://github.com/asdf-community/asdf-plugin-manager.git  f51f054
+asdf-plugin-manager  https://github.com/asdf-community/asdf-plugin-manager.git db4a5e6d46ea5b0df8476249536ac89deaddc08c
 clusterctl           https://github.com/pfnet-research/asdf-clusterctl.git      169bd58
 etcd                 https://github.com/particledecay/asdf-etcd.git             a151805
 github-cli           https://github.com/bartlomiejdanek/asdf-github-cli.git     e0605b7
