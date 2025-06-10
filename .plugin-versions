@@ -30,7 +30,7 @@ php                  https://github.com/asdf-community/asdf-php.git             
 pluto                https://github.com/FairwindsOps/asdf-pluto.git             e30adc6
 postgres             https://github.com/smashedtoatoms/asdf-postgres.git        55111bf
 promtool             https://github.com/looztra/asdf-promtool                   48383a0
-python               https://github.com/danhper/asdf-python.git                 5e277e2
+python               https://github.com/danhper/asdf-python.git d4caa7d4832313b4c141ee0ceca4118747147e89
 sbt                  https://github.com/bram2000/asdf-sbt.git                   33f9637
 scala                https://github.com/mtatheonly/asdf-scala.git               6de4edb
 shellcheck           https://github.com/luizm/asdf-shellcheck.git               b160a52
