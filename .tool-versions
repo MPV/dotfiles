@@ -32,6 +32,6 @@ asdf-plugin-manager 1.5.0
 promtool v2.47.0
 mimirtool 2.16.0
 amtool v0.27.0
-clusterctl 1.10.2
+clusterctl 1.10.3
 gcloud system
 maven system
