@@ -54,3 +54,9 @@ brewfile-dump:
 .PHONY: brewfile-install
 brewfile-install:
 	brew bundle install
+
+### ANTIDOTE
+
+.PHONY: zsh-plugins-antidote-cache-rebuild
+zsh-plugins-antidote-cache-rebuild:
+	zsh -c 'source /opt/homebrew/share/antidote/antidote.zsh && antidote bundle <~/.zsh_plugins.txt >~/.zsh_plugins.zsh'
