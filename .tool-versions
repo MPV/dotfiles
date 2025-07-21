@@ -11,7 +11,7 @@ yq 4.46.1
 tflint 0.58.1
 tfsec 1.28.14
 kubeval v0.16.1
-argocd 2.7.6
+argocd 2.14.15
 #pluto 4.0.4
 kind 0.29.0
 skaffold 1.39.18
