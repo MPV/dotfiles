@@ -3,7 +3,7 @@ nodejs 20.19.4
 terraform 1.12.2
 golang 1.25.0
 kustomize 4.5.7
-helm 3.18.5
+helm 3.18.6
 yarn 1.22.4
 java semeru-openj9-17.0.9+9_openj9-0.41.0 temurin-11.0.21+9
 sbt 1.11.4
