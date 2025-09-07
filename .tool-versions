@@ -30,7 +30,7 @@ vcluster 0.12.0
 python system
 asdf-plugin-manager 1.5.0
 promtool v2.47.0
-mimirtool 2.17.0
+mimirtool 2.17.1
 amtool v0.27.0
 clusterctl 1.11.1
 gcloud system
