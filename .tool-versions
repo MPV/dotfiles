@@ -22,7 +22,7 @@ github-cli 2.83.1
 vault 1.15.2
 #k3d 4.0.0
 postgres 13.4
-scala 2.13.17
+scala 2.13.18
 shellcheck 0.11.0
 jq system
 #etcd v3.4.18
