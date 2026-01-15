@@ -33,7 +33,7 @@ promtool             https://github.com/looztra/asdf-promtool                   
 python               https://github.com/danhper/asdf-python.git                 5e277e2
 sbt                  https://github.com/bram2000/asdf-sbt.git                   33f9637
 scala                https://github.com/mtatheonly/asdf-scala.git               6de4edb
-shellcheck           https://github.com/luizm/asdf-shellcheck.git               b160a52
+shellcheck           https://github.com/luizm/asdf-shellcheck.git 8b954a95d44b8d8a6c6cd5a5a52ed643b7bb52e3
 skaffold             https://github.com/kristoflemmens/asdf-skaffold.git        16ebd36
 terraform            https://github.com/Banno/asdf-hashicorp.git                197e3ec
 tflint               https://github.com/skyzyx/asdf-tflint.git                  37e7eb9
