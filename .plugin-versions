@@ -39,7 +39,7 @@ terraform            https://github.com/Banno/asdf-hashicorp.git                
 tflint               https://github.com/skyzyx/asdf-tflint.git                  37e7eb9
 tfsec                https://github.com/woneill/asdf-tfsec.git                  c36fac5
 tilt                 https://github.com/eaceaser/asdf-tilt.git                  69eac7b
-vault                https://github.com/Banno/asdf-hashicorp.git                197e3ec
+vault                https://github.com/Banno/asdf-hashicorp.git d2557f97752761eecb50f63cd31b64c236d23089
 vcluster             https://gitlab.com/wt0f/asdf-vcluster.git                  6b3221d
 yarn                 https://github.com/twuni/asdf-yarn.git                     376c540
 yq                   https://github.com/sudermanjr/asdf-yq.git                  772992f
