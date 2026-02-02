@@ -22,7 +22,7 @@ kubeval              https://github.com/stefansedich/asdf-kubeval.git           
 kustomize            https://github.com/Banno/asdf-kustomize.git                2c43c30
 maven                https://github.com/halcyon/asdf-maven.git                  83fb4db
 mc                   https://github.com/penpyt/asdf-mc.git                      b0458cf
-mimirtool            https://github.com/asdf-community/asdf-mimirtool           71e3e31
+mimirtool            https://github.com/asdf-community/asdf-mimirtool 8648f74453719e8916c2c3b61b6e711160f43b8e
 nodejs               https://github.com/asdf-vm/asdf-nodejs.git                 150ec5d
 oc                   https://github.com/bartoszmajsak/asdf-oc.git               037f6d4
 packer               https://github.com/Banno/asdf-hashicorp.git                197e3ec
