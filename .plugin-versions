@@ -28,7 +28,7 @@ oc                   https://github.com/bartoszmajsak/asdf-oc.git               
 packer               https://github.com/Banno/asdf-hashicorp.git                197e3ec
 php                  https://github.com/asdf-community/asdf-php.git             1eaf4de
 pluto                https://github.com/FairwindsOps/asdf-pluto.git             e30adc6
-postgres             https://github.com/smashedtoatoms/asdf-postgres.git        55111bf
+postgres             https://github.com/smashedtoatoms/asdf-postgres.git 2a69cc26d6324198a19375eb62d950907ea56019
 promtool             https://github.com/looztra/asdf-promtool                   48383a0
 python               https://github.com/danhper/asdf-python.git                 5e277e2
 sbt                  https://github.com/bram2000/asdf-sbt.git                   33f9637
