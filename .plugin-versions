@@ -20,7 +20,7 @@ kubebuilder          https://github.com/virtualstaticvoid/asdf-kubebuilder.git  
 kubectl              https://github.com/Banno/asdf-kubectl.git                  cbe6df4
 kubeval              https://github.com/stefansedich/asdf-kubeval.git           6ccc18f
 kustomize            https://github.com/Banno/asdf-kustomize.git                2c43c30
-maven                https://github.com/halcyon/asdf-maven.git                  83fb4db
+maven                https://github.com/halcyon/asdf-maven.git 674e23a8e239147ccf835252a41459c72f497c94
 mc                   https://github.com/penpyt/asdf-mc.git                      b0458cf
 mimirtool            https://github.com/asdf-community/asdf-mimirtool           71e3e31
 nodejs               https://github.com/asdf-vm/asdf-nodejs.git                 150ec5d
