@@ -32,7 +32,7 @@ postgres             https://github.com/smashedtoatoms/asdf-postgres.git        
 promtool             https://github.com/looztra/asdf-promtool                   48383a0
 python               https://github.com/danhper/asdf-python.git                 5e277e2
 sbt                  https://github.com/bram2000/asdf-sbt.git                   33f9637
-scala                https://github.com/mtatheonly/asdf-scala.git               6de4edb
+scala                https://github.com/mtatheonly/asdf-scala.git 53061f50fd0684edf31bf5fb0fe60b0a0821282b
 shellcheck           https://github.com/luizm/asdf-shellcheck.git               b160a52
 skaffold             https://github.com/kristoflemmens/asdf-skaffold.git        16ebd36
 terraform            https://github.com/Banno/asdf-hashicorp.git                197e3ec
