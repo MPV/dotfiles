@@ -14,7 +14,7 @@ helm                 https://github.com/Antiarchitect/asdf-helm.git             
 java                 https://github.com/halcyon/asdf-java.git                   f147681
 jq                   https://github.com/azmcode/asdf-jq.git                     9c7fc4e
 k3d                  https://github.com/spencergilbert/asdf-k3d.git             5b6f68c
-kind                 https://github.com/johnlayton/asdf-kind.git                4b6ed61
+kind                 https://github.com/johnlayton/asdf-kind.git 1201d8c348952291a2f661016e3e7085d301631e
 kops                 https://github.com/Antiarchitect/asdf-kops.git             1b00fe1
 kubebuilder          https://github.com/virtualstaticvoid/asdf-kubebuilder.git  d37b7e7
 kubectl              https://github.com/Banno/asdf-kubectl.git                  cbe6df4
