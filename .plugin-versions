@@ -1,5 +1,5 @@
 act                  https://github.com/grimoh/asdf-act.git                     adf8e44
-action-validator     https://github.com/mpalmer/action-validator.git            2039132
+action-validator     https://github.com/mpalmer/action-validator.git f55349f367686fa1df22f6e07f90f7cf88a9b28b
 actionlint           https://github.com/crazy-matt/asdf-actionlint.git          f8df3cf
 amtool               https://github.com/rickard-von-essen/asdf-amtool           ebc8999
 argocd               https://github.com/beardix/asdf-argocd.git                 429bbf9
