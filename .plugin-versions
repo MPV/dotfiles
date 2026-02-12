@@ -25,7 +25,7 @@ mc                   https://github.com/penpyt/asdf-mc.git                      
 mimirtool            https://github.com/asdf-community/asdf-mimirtool           71e3e31
 nodejs               https://github.com/asdf-vm/asdf-nodejs.git                 150ec5d
 oc                   https://github.com/bartoszmajsak/asdf-oc.git               037f6d4
-packer               https://github.com/Banno/asdf-hashicorp.git                197e3ec
+packer               https://github.com/Banno/asdf-hashicorp.git d2557f97752761eecb50f63cd31b64c236d23089
 php                  https://github.com/asdf-community/asdf-php.git             1eaf4de
 pluto                https://github.com/FairwindsOps/asdf-pluto.git             e30adc6
 postgres             https://github.com/smashedtoatoms/asdf-postgres.git        55111bf
