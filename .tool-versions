@@ -7,7 +7,7 @@ helm 3.20.0
 yarn 1.22.4
 java semeru-openj9-17.0.9+9_openj9-0.41.0 temurin-11.0.21+9
 sbt 1.12.2
-yq 4.52.2
+yq 4.52.4
 tflint 0.61.0
 tfsec 1.28.14
 kubeval v0.16.1
