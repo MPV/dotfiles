@@ -23,7 +23,7 @@ kustomize            https://github.com/Banno/asdf-kustomize.git                
 maven                https://github.com/halcyon/asdf-maven.git                  83fb4db
 mc                   https://github.com/penpyt/asdf-mc.git                      b0458cf
 mimirtool            https://github.com/asdf-community/asdf-mimirtool           71e3e31
-nodejs               https://github.com/asdf-vm/asdf-nodejs.git                 150ec5d
+nodejs               https://github.com/asdf-vm/asdf-nodejs.git 779c8dc84b3bdab38c2c80622d315c2c3267f74b
 oc                   https://github.com/bartoszmajsak/asdf-oc.git               037f6d4
 packer               https://github.com/Banno/asdf-hashicorp.git                197e3ec
 php                  https://github.com/asdf-community/asdf-php.git             1eaf4de
