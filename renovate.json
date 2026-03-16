@@ -1,15 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": [
+    "config:recommended"
+  ],
   "git-submodules": {
     "enabled": true
   },
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^\\.plugin-versions$"],
+      "managerFilePatterns": [
+        "/^\\.plugin-versions$/"
+      ],
       "matchStrings": [
-        "(?<depName>\\S+)(?<indentation>\\s*)(?<packageName>https:\\\/\\\/github.com\\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
+        "(?<depName>\\S+)(?<indentation>\\s*)(?<packageName>https:\\/\\/github.com\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
       ],
       "autoReplaceStringTemplate": "{{{depName}}}{{indentation}}{{{packageName}}} {{{newDigest}}}",
       "datasourceTemplate": "git-refs",
@@ -23,8 +27,12 @@
       "description": [
         "Automerge ASDF plugins (git submodules)"
       ],
-      "matchManagers": ["git-submodules"],
-      "matchDepNames": [".asdf/plugins/*"],
+      "matchManagers": [
+        "git-submodules"
+      ],
+      "matchDepNames": [
+        ".asdf/plugins/*"
+      ],
       "automerge": true
     },
     {
@@ -33,8 +41,13 @@
         "as I prefer to upgrade major versions myself",
         "but should be fine to use latest otherwise"
       ],
-      "matchManagers": ["asdf"],
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchManagers": [
+        "asdf"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "automerge": true
     },
     {
@@ -42,8 +55,12 @@
         "Do not automerge ASDF versions of these tools (minor)",
         "as I prefer to upgrade minor version myself of these"
       ],
-      "matchManagers": ["asdf"],
-      "matchUpdateTypes": ["minor"],
+      "matchManagers": [
+        "asdf"
+      ],
+      "matchUpdateTypes": [
+        "minor"
+      ],
       "matchDepNames": [
         "argocd",
         "vault",
