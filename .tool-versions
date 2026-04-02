@@ -1,5 +1,5 @@
 kubectl 1.31.3
-nodejs 20.20.2
+nodejs 24.14.1
 terraform 1.14.8
 golang 1.26.1
 kustomize 4.5.7
