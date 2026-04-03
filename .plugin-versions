@@ -35,7 +35,7 @@ sbt                  https://github.com/bram2000/asdf-sbt.git                   
 scala                https://github.com/mtatheonly/asdf-scala.git               6de4edb
 shellcheck           https://github.com/luizm/asdf-shellcheck.git               b160a52
 skaffold             https://github.com/kristoflemmens/asdf-skaffold.git        16ebd36
-terraform            https://github.com/Banno/asdf-hashicorp.git                197e3ec
+terraform            https://github.com/Banno/asdf-hashicorp.git d2557f97752761eecb50f63cd31b64c236d23089
 tflint               https://github.com/skyzyx/asdf-tflint.git                  37e7eb9
 tfsec                https://github.com/woneill/asdf-tfsec.git                  c36fac5
 tilt                 https://github.com/eaceaser/asdf-tilt.git                  69eac7b
