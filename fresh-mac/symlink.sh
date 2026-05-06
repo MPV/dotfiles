@@ -19,6 +19,7 @@ ln -is ${PARENT_PATH}/.zshrc
 ln -is ${PARENT_PATH}/.zsh_plugins.txt
 ln -is ${PARENT_PATH}/.config/starship.toml ~/.config/
 ln -is ${PARENT_PATH}/.config/bitbar
+ln -is ${PARENT_PATH}/.config/ghostty
 ln -is ${PARENT_PATH}/.ssh/personal.include ~/.ssh/
 ln -is ${PARENT_PATH}/.tmux
 ln -is ${PARENT_PATH}/.tmux.conf
