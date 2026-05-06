@@ -5,6 +5,9 @@ export EDITOR='vim'
 
 export GOPATH=~/go
 
+# ASDF
+export ASDF_DATA_DIR="$HOME/.asdf"
+
 # PATH changes:
 export PATH="$HOME/bin:$PATH"       # ~/bin
 export PATH="./bin:$PATH"           # ./bin
@@ -12,6 +15,8 @@ export PATH="$HOME/.krew/bin:$PATH" # ~/.krew/bin
 export PATH="$HOME/go/bin:$PATH"    # ~/go/bin
 export PATH="/usr/local/sbin:$PATH" # Homebrew
 export PATH="/Applications/IntelliJ IDEA CE.app/Contents/MacOS:$PATH" # idea
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH" # mysql
+export PATH="$ASDF_DATA_DIR/shims:$PATH" # asdf shims (first for precedence)
 
 # Locale
 export LC_CTYPE=en_GB.UTF-8
