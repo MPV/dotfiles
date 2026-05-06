@@ -33,6 +33,9 @@ export KUBECTL_EXTERNAL_DIFF="colordiff -u"
 # Don't read (the new/future default) Golang version for ASDF from go.mod and go.work files
 export ASDF_GOLANG_MOD_VERSION_ENABLED=false
 
+# Silence docker hints:
+export DOCKER_CLI_HINTS=false
+
 if [[ -f ~/.exports.local ]]; then
   source ~/.exports.local
 fi
