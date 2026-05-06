@@ -18,7 +18,7 @@ disabled = true
 disabled = false
 
 [kubernetes]
-disabled = true
+disabled = false
 format = '[$context](dimmed green) '
 
 # ------------------------------
@@ -44,7 +44,8 @@ disabled = true
 [gcloud]
 #format = 'on [$symbol (\($project @ $region\))]($style) '
 format = '[$symbol ($project)]($style) '
-disabled = true
+disabled = false
+symbol = " "
 
 [git_branch]
 format = "[$symbol$branch]($style) "
