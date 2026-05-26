@@ -1,4 +1,4 @@
-act                  https://github.com/grimoh/asdf-act.git                     adf8e44
+act                  https://github.com/grimoh/asdf-act.git 77ede46c98f2dc36f1657c01b6cdfded40c07344
 action-validator     https://github.com/mpalmer/action-validator.git            2039132
 actionlint           https://github.com/crazy-matt/asdf-actionlint.git          f8df3cf
 amtool               https://github.com/rickard-von-essen/asdf-amtool           ebc8999
