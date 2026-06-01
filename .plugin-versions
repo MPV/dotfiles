@@ -19,7 +19,7 @@ kops                 https://github.com/Antiarchitect/asdf-kops.git             
 kubebuilder          https://github.com/virtualstaticvoid/asdf-kubebuilder.git  d37b7e7
 kubectl              https://github.com/Banno/asdf-kubectl.git                  cbe6df4
 kubeval              https://github.com/stefansedich/asdf-kubeval.git           6ccc18f
-kustomize            https://github.com/Banno/asdf-kustomize.git                2c43c30
+kustomize            https://github.com/Banno/asdf-kustomize.git a5ecf778e74cbd7d118455c14c2d479d83be88c8
 maven                https://github.com/halcyon/asdf-maven.git                  83fb4db
 mc                   https://github.com/penpyt/asdf-mc.git                      b0458cf
 mimirtool            https://github.com/asdf-community/asdf-mimirtool           71e3e31
