@@ -7,7 +7,9 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^\\.plugin-versions$"],
+      "managerFilePatterns": [
+        "/^\\.plugin-versions$/"
+      ],
       "matchStrings": [
         "(?<depName>\\S+)(?<indentation>\\s*)(?<packageName>https:\\\/\\\/github.com\\\/[\\S]+)\\W*(?<currentValue>)(?<currentDigest>[a-f0-9]{7,40})"
       ],
