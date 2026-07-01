@@ -4,6 +4,7 @@
   "git-submodules": {
     "enabled": true
   },
+  "dependencyDashboard": true,
   "prConcurrentLimit": 60,
   "customManagers": [
     {
