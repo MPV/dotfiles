@@ -4,6 +4,7 @@
   "git-submodules": {
     "enabled": true
   },
+  "prConcurrentLimit": 60,
   "customManagers": [
     {
       "customType": "regex",
@@ -17,15 +18,29 @@
     }
   ],
   "ignoreTests": true,
-  "prConcurrentLimit": 60,
   "packageRules": [
     {
       "description": [
-        "Automerge ASDF plugins (git submodules)"
+        "Combine the two representations of each asdf plugin (git submodule +",
+        ".plugin-versions digest) into a single branch so they upgrade together,",
+        "then automerge. Using automergeType 'pr' first to verify the grouping",
+        "and merge path; switch to 'branch' afterwards to drop the PR entirely."
       ],
       "matchManagers": ["git-submodules"],
       "matchDepNames": [".asdf/plugins/*"],
-      "automerge": true
+      "groupName": "asdf plugins",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "description": [
+        "Same group as the submodule digests, so the .plugin-versions digest for",
+        "each plugin lands in the same branch/commit instead of a separate one."
+      ],
+      "matchFileNames": [".plugin-versions"],
+      "groupName": "asdf plugins",
+      "automerge": true,
+      "automergeType": "pr"
     },
     {
       "description": [
