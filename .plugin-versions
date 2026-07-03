@@ -11,7 +11,7 @@ golang               https://github.com/kennyp/asdf-golang.git a75b761963d8e6eda
 grafana              https://github.com/baysao/asdf-grafana.git                 429a9af
 helm-ct              https://github.com/tablexi/asdf-helm-ct.git                3e3ec87
 helm                 https://github.com/Antiarchitect/asdf-helm.git 3a6dcbba19ca2a7c4bd7c43eb0e2a35736e6bce7
-java                 https://github.com/halcyon/asdf-java.git 52476f47753114d46b61745022972303871cb181
+java                 https://github.com/halcyon/asdf-java.git 28b81a904f0c37277849e2188488adf728027d84
 jq                   https://github.com/azmcode/asdf-jq.git a13dea7dfc55c12547426c4ef4e8fff8f349298d
 k3d                  https://github.com/spencergilbert/asdf-k3d.git 57d85e49f6aaff81e6e69ccb28aca49f2d4957a1
 kind                 https://github.com/johnlayton/asdf-kind.git 1201d8c348952291a2f661016e3e7085d301631e
