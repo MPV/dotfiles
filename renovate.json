@@ -26,14 +26,13 @@
       "description": [
         "Combine the two representations of each asdf plugin (git submodule +",
         ".plugin-versions digest) into a single branch so they upgrade together,",
-        "then automerge. Using automergeType 'pr' first to verify the grouping",
-        "and merge path; switch to 'branch' afterwards to drop the PR entirely."
+        "then merge straight to the branch without opening a PR."
       ],
       "matchManagers": ["git-submodules"],
       "matchDepNames": [".asdf/plugins/*"],
       "groupName": "asdf plugins",
       "automerge": true,
-      "automergeType": "pr"
+      "automergeType": "branch"
     },
     {
       "description": [
@@ -43,7 +42,7 @@
       "matchFileNames": [".plugin-versions"],
       "groupName": "asdf plugins",
       "automerge": true,
-      "automergeType": "pr"
+      "automergeType": "branch"
     },
     {
       "description": [
