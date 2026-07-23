@@ -1,5 +1,12 @@
-# Make tab-completion work without errors (command not found: compdef)
-autoload -Uz compinit && compinit
+# Make tab-completion work without errors (command not found: compdef).
+# Only rebuild the completion dump (and run its security check) once a day;
+# every other startup reuses the cache via `compinit -C` for faster shells.
+autoload -Uz compinit
+if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(#qN.mh+24) ]]; then
+	compinit
+else
+	compinit -C
+fi
 
 [ -f /usr/local/opt/antidote/share/antidote/antidote.zsh ] && source /usr/local/opt/antidote/share/antidote/antidote.zsh
 [ -f /opt/homebrew/opt/antidote/share/antidote/antidote.zsh ] && source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
