@@ -1,9 +1,20 @@
 # Make tab-completion work without errors (command not found: compdef)
 autoload -Uz compinit && compinit
 
-[ -f /usr/local/opt/antidote/share/antidote/antidote.zsh ] && source /usr/local/opt/antidote/share/antidote/antidote.zsh
-[ -f /opt/homebrew/opt/antidote/share/antidote/antidote.zsh ] && source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
-antidote load
+# Antidote: source a statically-generated plugin bundle for fast startup,
+# regenerating it only when the plugin list (~/.zsh_plugins.txt) changes.
+# See: https://getantidote.github.io/usage#static
+zsh_plugins=${ZDOTDIR:-$HOME}/.zsh_plugins
+if [[ ! ${zsh_plugins}.zsh -nt ${zsh_plugins}.txt ]]; then
+	for antidote_dir in /opt/homebrew/opt/antidote /usr/local/opt/antidote; do
+		if [ -f "${antidote_dir}/share/antidote/antidote.zsh" ]; then
+			source "${antidote_dir}/share/antidote/antidote.zsh"
+			antidote bundle <"${zsh_plugins}.txt" >"${zsh_plugins}.zsh"
+			break
+		fi
+	done
+fi
+[ -f "${zsh_plugins}.zsh" ] && source "${zsh_plugins}.zsh"
 
 # Starship
 eval "$(starship init zsh)"
