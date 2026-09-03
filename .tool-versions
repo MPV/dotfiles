@@ -6,7 +6,7 @@ kustomize 4.5.7
 helm 3.21.4
 yarn 1.22.4
 java semeru-openj9-11.0.28+6_openj9-0.53.0 temurin-11.0.21+9
-sbt 1.13.0
+sbt 2.0.8
 yq 4.53.6
 tflint 0.64.0
 tfsec 1.28.14
