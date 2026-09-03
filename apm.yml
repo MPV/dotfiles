@@ -2,6 +2,7 @@ name: victors
 version: 1.0.0
 description: APM project for victors
 author: Victor Sollerhed
+targets: [claude, copilot]
 dependencies:
   apm:
   - google/skills/skills/cloud/cloud-sql-basics
