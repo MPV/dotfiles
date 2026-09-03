@@ -35,3 +35,4 @@ amtool v0.27.0
 clusterctl 1.14.1
 gcloud system
 maven system
+hadolint 2.12.1-beta
