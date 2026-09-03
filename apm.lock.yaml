@@ -1,0 +1,55 @@
+lockfile_version: '1'
+generated_at: '2026-04-29T07:18:48.038001+00:00'
+apm_version: 0.10.0
+dependencies:
+- repo_url: google/skills
+  host: github.com
+  resolved_commit: 6f0b8771638112948f03601e54f4602dd3cb7cc7
+  virtual_path: skills/cloud/cloud-sql-basics
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/cloud-sql-basics
+  - .copilot/skills/cloud-sql-basics
+  - .cursor/skills/cloud-sql-basics
+  - .gemini/skills/cloud-sql-basics
+  content_hash: sha256:8385aa80015627fef3104adf743cee7a81bda47c8ccebf182050638ad0fb0f2d
+- repo_url: google/skills
+  host: github.com
+  resolved_commit: 6f0b8771638112948f03601e54f4602dd3cb7cc7
+  resolved_ref: 6f0b877
+  virtual_path: skills/cloud/gke-basics
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/gke-basics
+  - .copilot/skills/gke-basics
+  - .cursor/skills/gke-basics
+  - .gemini/skills/gke-basics
+  content_hash: sha256:e66b40a75538dc4229a2ac2c74a3ffc2122564a635a9270a0ab2e04f5c60b655
+- repo_url: mattpocock/skills
+  host: github.com
+  resolved_commit: e74f0061bb67222181640effa98c675bdb2fdaa7
+  resolved_ref: e74f006
+  virtual_path: skills/engineering/grill-with-docs
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/grill-with-docs
+  - .copilot/skills/grill-with-docs
+  - .cursor/skills/grill-with-docs
+  - .gemini/skills/grill-with-docs
+  content_hash: sha256:1adf321072f53cce3dcaf5357d91b8230d4aa647bb8a51756745337a6ee567b8
+- repo_url: mattpocock/skills
+  host: github.com
+  resolved_commit: 62f43a18177be6ec82da242e59ffbc490a4c22ea
+  resolved_ref: 62f43a1
+  virtual_path: skills/productivity/grill-me
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/grill-me
+  - .copilot/skills/grill-me
+  - .cursor/skills/grill-me
+  - .gemini/skills/grill-me
+  content_hash: sha256:784f0dbb7403b0f00324bce9a112f715342777a0daee7bbb7385f9c6f0a170ea
