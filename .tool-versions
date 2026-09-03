@@ -35,7 +35,7 @@ amtool v0.27.0
 clusterctl 1.14.1
 gcloud system
 maven system
-hadolint 2.12.1-beta
+hadolint 2.15.1
 goss 0.4.9
 container-structure-test 1.22.1
 dyff 1.10.1
