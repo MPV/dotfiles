@@ -1,55 +1,630 @@
 lockfile_version: '1'
-generated_at: '2026-04-29T07:18:48.038001+00:00'
-apm_version: 0.10.0
+generated_at: '2026-09-03T10:34:30.572487+00:00'
+apm_version: 0.29.0
 dependencies:
 - repo_url: google/skills
+  name: cloud-sql-basics
   host: github.com
   resolved_commit: 6f0b8771638112948f03601e54f4602dd3cb7cc7
+  version: unknown
   virtual_path: skills/cloud/cloud-sql-basics
   is_virtual: true
   package_type: claude_skill
   deployed_files:
   - .claude/skills/cloud-sql-basics
+  - .claude/skills/cloud-sql-basics/SKILL.md
+  - .claude/skills/cloud-sql-basics/references/cli-usage.md
+  - .claude/skills/cloud-sql-basics/references/client-library-usage.md
+  - .claude/skills/cloud-sql-basics/references/core-concepts.md
+  - .claude/skills/cloud-sql-basics/references/iac-usage.md
+  - .claude/skills/cloud-sql-basics/references/iam-security.md
+  - .claude/skills/cloud-sql-basics/references/mcp-usage.md
   - .copilot/skills/cloud-sql-basics
   - .cursor/skills/cloud-sql-basics
   - .gemini/skills/cloud-sql-basics
+  deployed_file_hashes:
+    .claude/skills/cloud-sql-basics/SKILL.md: sha256:39ac3a02c4ab9c28fcdb3767cf50da54f530158f94e7ed61cce47782dff1bb5f
+    .claude/skills/cloud-sql-basics/references/cli-usage.md: sha256:e4175c9fa56fcd11703167f3591fedc011a77503ca56b35836ab09315d1e49a6
+    .claude/skills/cloud-sql-basics/references/client-library-usage.md: sha256:729676dab8f4a2c6c9847848be5c5b4ed79d45aad38c6ae0ede886b61babe20c
+    .claude/skills/cloud-sql-basics/references/core-concepts.md: sha256:1780d8bc002a8c12f0f2a657c01b18d5525f9bfc73e7033ed12dddb00f3512ab
+    .claude/skills/cloud-sql-basics/references/iac-usage.md: sha256:5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f
+    .claude/skills/cloud-sql-basics/references/iam-security.md: sha256:af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977
+    .claude/skills/cloud-sql-basics/references/mcp-usage.md: sha256:9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab
   content_hash: sha256:8385aa80015627fef3104adf743cee7a81bda47c8ccebf182050638ad0fb0f2d
 - repo_url: google/skills
+  name: gke-basics
   host: github.com
   resolved_commit: 6f0b8771638112948f03601e54f4602dd3cb7cc7
   resolved_ref: 6f0b877
+  version: unknown
   virtual_path: skills/cloud/gke-basics
   is_virtual: true
   package_type: claude_skill
   deployed_files:
   - .claude/skills/gke-basics
+  - .claude/skills/gke-basics/SKILL.md
+  - .claude/skills/gke-basics/assets/default-deny-netpol.yaml
+  - .claude/skills/gke-basics/assets/golden-path-autopilot.yaml
+  - .claude/skills/gke-basics/assets/hpa-example.yaml
+  - .claude/skills/gke-basics/assets/vpa-example.yaml
+  - .claude/skills/gke-basics/assets/workload-identity-pod.yaml
+  - .claude/skills/gke-basics/references/cli-reference.md
+  - .claude/skills/gke-basics/references/client-library-usage.md
+  - .claude/skills/gke-basics/references/core-concepts.md
+  - .claude/skills/gke-basics/references/gke-app-onboarding.md
+  - .claude/skills/gke-basics/references/gke-backup-dr.md
+  - .claude/skills/gke-basics/references/gke-batch-hpc.md
+  - .claude/skills/gke-basics/references/gke-cluster-creation.md
+  - .claude/skills/gke-basics/references/gke-compute-classes.md
+  - .claude/skills/gke-basics/references/gke-cost.md
+  - .claude/skills/gke-basics/references/gke-golden-path.md
+  - .claude/skills/gke-basics/references/gke-inference.md
+  - .claude/skills/gke-basics/references/gke-multitenancy.md
+  - .claude/skills/gke-basics/references/gke-networking.md
+  - .claude/skills/gke-basics/references/gke-observability.md
+  - .claude/skills/gke-basics/references/gke-reliability.md
+  - .claude/skills/gke-basics/references/gke-scaling.md
+  - .claude/skills/gke-basics/references/gke-security.md
+  - .claude/skills/gke-basics/references/gke-storage.md
+  - .claude/skills/gke-basics/references/gke-upgrades.md
+  - .claude/skills/gke-basics/references/iac-usage.md
+  - .claude/skills/gke-basics/references/mcp-usage.md
   - .copilot/skills/gke-basics
   - .cursor/skills/gke-basics
   - .gemini/skills/gke-basics
+  deployed_file_hashes:
+    .claude/skills/gke-basics/SKILL.md: sha256:dce1ef971031871988194ca38a89d2d15544af5469a2c2e990f51056264ae444
+    .claude/skills/gke-basics/assets/default-deny-netpol.yaml: sha256:ca5b0a70d4ccfaecea0f71001ada99ca04143b29c5fa2fb7e66bb1216fc93d84
+    .claude/skills/gke-basics/assets/golden-path-autopilot.yaml: sha256:fb4729c0fa8b1bf790de34fc24621e641e76dc451009926a7b5af9eda67e49ab
+    .claude/skills/gke-basics/assets/hpa-example.yaml: sha256:f733a5bee46d4e5473db960867fb8057cfe67a40520737dc5a3b4d3740876a1d
+    .claude/skills/gke-basics/assets/vpa-example.yaml: sha256:cdebc46b58eef3764b97200670df10728b33d6c293fed6e3f7a202ea13c5929a
+    .claude/skills/gke-basics/assets/workload-identity-pod.yaml: sha256:d03d5429c8966a0e2e4121f2fbf6a480e997c033f56567609cb32e629b16abe5
+    .claude/skills/gke-basics/references/cli-reference.md: sha256:9cc6608c1afaaaf426d7371fe5b7981fe38f0ccdac8c4a256c1a79baafb2516b
+    .claude/skills/gke-basics/references/client-library-usage.md: sha256:f4d341ba706124b74168a116a683582ba676150f691d046a4841cca28103980d
+    .claude/skills/gke-basics/references/core-concepts.md: sha256:418684017a1d941d26d4c6922e967c41c2b7c16b8586a8934f04ee93750b2dc7
+    .claude/skills/gke-basics/references/gke-app-onboarding.md: sha256:6ff4250799d122b7be9bcf9b0e224d65752281ac240316918e283cfbec0bf86e
+    .claude/skills/gke-basics/references/gke-backup-dr.md: sha256:061d2dfea5188f591b256c6d6ff5b5164886347698bb92463b80aad42fcc9523
+    .claude/skills/gke-basics/references/gke-batch-hpc.md: sha256:d660bc3ca5efb2cfc6b74c8c7372d37677ab362b06d7d9cab804017c976e1e0c
+    .claude/skills/gke-basics/references/gke-cluster-creation.md: sha256:452e15bff9b61ba792d05382735d97ab065db7eda8cddae8eb4655ebd89b08bb
+    .claude/skills/gke-basics/references/gke-compute-classes.md: sha256:94ebe1d5a9dccc9d265cf8f109e99b8d8bab954395f0204ac98f36a5df39b897
+    .claude/skills/gke-basics/references/gke-cost.md: sha256:9b9962eaca18306bcb72685d95f2f20849b511bbf53d1c3051f924b09e366213
+    .claude/skills/gke-basics/references/gke-golden-path.md: sha256:03a15ae51339603c53933fb04605324130d7ca5345ac2e598121c613a43cd965
+    .claude/skills/gke-basics/references/gke-inference.md: sha256:3161e120ac380bf0004ddad2b8b7e0d4deee89da1f9f247082e9ca917bdd3926
+    .claude/skills/gke-basics/references/gke-multitenancy.md: sha256:280a2e0704998d10d2d99e5456c06432d027a8fe69c288eb914f79c34075ae8e
+    .claude/skills/gke-basics/references/gke-networking.md: sha256:bff0050be368374d769d599a61b62342874e2cc8e107d3732bd36b7fc4230a5b
+    .claude/skills/gke-basics/references/gke-observability.md: sha256:294dd9c18c5af0742d5dd6e0fa6bff2ec44d10181b7b0f4ddda86ebef6b598c0
+    .claude/skills/gke-basics/references/gke-reliability.md: sha256:e7b8b3fb18bee4796ef6ff06a60fd441a9f36267c41f97ee3f05f5fd2e29903a
+    .claude/skills/gke-basics/references/gke-scaling.md: sha256:649a2d28a26880166a22b033a586c544ae60f04528a02f0b6aa80e9114f30cce
+    .claude/skills/gke-basics/references/gke-security.md: sha256:41efb5fd2680876f32ea736dc8732c5b2832e3e135e114dd4e3051d911539a94
+    .claude/skills/gke-basics/references/gke-storage.md: sha256:c61e94c3e758f6c21290013cc9b681b23544ba5e506b65da227dc7aaa7d45cac
+    .claude/skills/gke-basics/references/gke-upgrades.md: sha256:47313704fc1b6dad6b597d29cf050ce14cb4e9d48868282db70bf1a7f2398c8e
+    .claude/skills/gke-basics/references/iac-usage.md: sha256:636b533e4554de8518bcbb463f871e338c4f9a69926ad9b21cfc646e20cb526e
+    .claude/skills/gke-basics/references/mcp-usage.md: sha256:331c5f0852b34cfb6b9e1b9975af93060b79680f124317de56a902c60e2e417b
   content_hash: sha256:e66b40a75538dc4229a2ac2c74a3ffc2122564a635a9270a0ab2e04f5c60b655
 - repo_url: mattpocock/skills
+  name: grill-with-docs
   host: github.com
   resolved_commit: e74f0061bb67222181640effa98c675bdb2fdaa7
   resolved_ref: e74f006
+  version: unknown
   virtual_path: skills/engineering/grill-with-docs
   is_virtual: true
   package_type: claude_skill
   deployed_files:
   - .claude/skills/grill-with-docs
+  - .claude/skills/grill-with-docs/ADR-FORMAT.md
+  - .claude/skills/grill-with-docs/CONTEXT-FORMAT.md
+  - .claude/skills/grill-with-docs/SKILL.md
   - .copilot/skills/grill-with-docs
   - .cursor/skills/grill-with-docs
   - .gemini/skills/grill-with-docs
+  deployed_file_hashes:
+    .claude/skills/grill-with-docs/ADR-FORMAT.md: sha256:f1f36cd3f8d3b6474ddd5855da4e233bfc4ae1a1c5024909ccf11871819a41b2
+    .claude/skills/grill-with-docs/CONTEXT-FORMAT.md: sha256:8f6baaa3b1c91644bd7c600196b1aee781d5f525c7c345db8cdfbfb368329a05
+    .claude/skills/grill-with-docs/SKILL.md: sha256:3e35025119ba03efe7983dfdec3c8b96918142e3978512f3c2bf66d428310c7e
   content_hash: sha256:1adf321072f53cce3dcaf5357d91b8230d4aa647bb8a51756745337a6ee567b8
 - repo_url: mattpocock/skills
+  name: grill-me
   host: github.com
   resolved_commit: 62f43a18177be6ec82da242e59ffbc490a4c22ea
   resolved_ref: 62f43a1
+  version: unknown
   virtual_path: skills/productivity/grill-me
   is_virtual: true
   package_type: claude_skill
   deployed_files:
   - .claude/skills/grill-me
+  - .claude/skills/grill-me/SKILL.md
   - .copilot/skills/grill-me
   - .cursor/skills/grill-me
   - .gemini/skills/grill-me
+  deployed_file_hashes:
+    .claude/skills/grill-me/SKILL.md: sha256:74147eb6010a65957efef2b9e0f0b3ff935c1def7fc117697151b1d0f3610556
   content_hash: sha256:784f0dbb7403b0f00324bce9a112f715342777a0daee7bbb7385f9c6f0a170ea
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:39ac3a02c4ab9c28fcdb3767cf50da54f530158f94e7ed61cce47782dff1bb5f
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/references/cli-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:e4175c9fa56fcd11703167f3591fedc011a77503ca56b35836ab09315d1e49a6
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/references/client-library-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:729676dab8f4a2c6c9847848be5c5b4ed79d45aad38c6ae0ede886b61babe20c
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/references/core-concepts.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:1780d8bc002a8c12f0f2a657c01b18d5525f9bfc73e7033ed12dddb00f3512ab
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/references/iac-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/references/iam-security.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/references/mcp-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:dce1ef971031871988194ca38a89d2d15544af5469a2c2e990f51056264ae444
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/assets/default-deny-netpol.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:ca5b0a70d4ccfaecea0f71001ada99ca04143b29c5fa2fb7e66bb1216fc93d84
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/assets/golden-path-autopilot.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:fb4729c0fa8b1bf790de34fc24621e641e76dc451009926a7b5af9eda67e49ab
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/assets/hpa-example.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:f733a5bee46d4e5473db960867fb8057cfe67a40520737dc5a3b4d3740876a1d
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/assets/vpa-example.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:cdebc46b58eef3764b97200670df10728b33d6c293fed6e3f7a202ea13c5929a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/assets/workload-identity-pod.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:d03d5429c8966a0e2e4121f2fbf6a480e997c033f56567609cb32e629b16abe5
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/cli-reference.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:9cc6608c1afaaaf426d7371fe5b7981fe38f0ccdac8c4a256c1a79baafb2516b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/client-library-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:f4d341ba706124b74168a116a683582ba676150f691d046a4841cca28103980d
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/core-concepts.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:418684017a1d941d26d4c6922e967c41c2b7c16b8586a8934f04ee93750b2dc7
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-app-onboarding.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:6ff4250799d122b7be9bcf9b0e224d65752281ac240316918e283cfbec0bf86e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-backup-dr.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:061d2dfea5188f591b256c6d6ff5b5164886347698bb92463b80aad42fcc9523
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-batch-hpc.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:d660bc3ca5efb2cfc6b74c8c7372d37677ab362b06d7d9cab804017c976e1e0c
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-cluster-creation.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:452e15bff9b61ba792d05382735d97ab065db7eda8cddae8eb4655ebd89b08bb
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-compute-classes.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:94ebe1d5a9dccc9d265cf8f109e99b8d8bab954395f0204ac98f36a5df39b897
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-cost.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:9b9962eaca18306bcb72685d95f2f20849b511bbf53d1c3051f924b09e366213
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-golden-path.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:03a15ae51339603c53933fb04605324130d7ca5345ac2e598121c613a43cd965
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-inference.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:3161e120ac380bf0004ddad2b8b7e0d4deee89da1f9f247082e9ca917bdd3926
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-multitenancy.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:280a2e0704998d10d2d99e5456c06432d027a8fe69c288eb914f79c34075ae8e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-networking.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:bff0050be368374d769d599a61b62342874e2cc8e107d3732bd36b7fc4230a5b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-observability.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:294dd9c18c5af0742d5dd6e0fa6bff2ec44d10181b7b0f4ddda86ebef6b598c0
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-reliability.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:e7b8b3fb18bee4796ef6ff06a60fd441a9f36267c41f97ee3f05f5fd2e29903a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-scaling.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:649a2d28a26880166a22b033a586c544ae60f04528a02f0b6aa80e9114f30cce
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-security.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:41efb5fd2680876f32ea736dc8732c5b2832e3e135e114dd4e3051d911539a94
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-storage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:c61e94c3e758f6c21290013cc9b681b23544ba5e506b65da227dc7aaa7d45cac
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/gke-upgrades.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:47313704fc1b6dad6b597d29cf050ce14cb4e9d48868282db70bf1a7f2398c8e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/iac-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:636b533e4554de8518bcbb463f871e338c4f9a69926ad9b21cfc646e20cb526e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/gke-basics/references/mcp-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:331c5f0852b34cfb6b9e1b9975af93060b79680f124317de56a902c60e2e417b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-me
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-me/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: sha256:74147eb6010a65957efef2b9e0f0b3ff935c1def7fc117697151b1d0f3610556
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-with-docs
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-with-docs/ADR-FORMAT.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: sha256:f1f36cd3f8d3b6474ddd5855da4e233bfc4ae1a1c5024909ccf11871819a41b2
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-with-docs/CONTEXT-FORMAT.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: sha256:8f6baaa3b1c91644bd7c600196b1aee781d5f525c7c345db8cdfbfb368329a05
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-with-docs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: sha256:3e35025119ba03efe7983dfdec3c8b96918142e3978512f3c2bf66d428310c7e
+- kind: project-relative
+  target: copilot
+  value: .copilot/skills/cloud-sql-basics
+  runtime: null
+  scope: user
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .copilot/skills/gke-basics
+  runtime: null
+  scope: user
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .copilot/skills/grill-me
+  runtime: null
+  scope: user
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .copilot/skills/grill-with-docs
+  runtime: null
+  scope: user
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: null
+- kind: project-relative
+  target: cursor
+  value: .cursor/skills/cloud-sql-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: null
+- kind: project-relative
+  target: cursor
+  value: .cursor/skills/gke-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: null
+- kind: project-relative
+  target: cursor
+  value: .cursor/skills/grill-me
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: null
+- kind: project-relative
+  target: cursor
+  value: .cursor/skills/grill-with-docs
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: null
+- kind: project-relative
+  target: gemini
+  value: .gemini/skills/cloud-sql-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: null
+- kind: project-relative
+  target: gemini
+  value: .gemini/skills/gke-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: null
+- kind: project-relative
+  target: gemini
+  value: .gemini/skills/grill-me
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: null
+- kind: project-relative
+  target: gemini
+  value: .gemini/skills/grill-with-docs
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: null
