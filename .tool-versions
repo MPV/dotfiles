@@ -37,7 +37,7 @@ gcloud system
 maven system
 hadolint 2.12.1-beta
 goss 0.4.9
-container-structure-test 1.19.3
+container-structure-test 1.22.1
 dyff 1.10.1
 cue 0.13.0-alpha.3
 etcd 3.5.21
