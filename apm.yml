@@ -7,7 +7,7 @@ dependencies:
   apm:
   - google/skills/skills/cloud/cloud-sql-basics
   - google/skills/skills/cloud/gke-basics#6f0b877
-  - mattpocock/skills/skills/engineering/domain-modeling#v1.0.0
+  - mattpocock/skills/skills/engineering/domain-modeling#v1.2.3
   - mattpocock/skills/skills/engineering/grill-with-docs#v1.0.0
   - mattpocock/skills/skills/productivity/grill-me#v1.0.0
   - mattpocock/skills/skills/productivity/grilling#v1.0.0
