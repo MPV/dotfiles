@@ -16,3 +16,7 @@ Thumbs.db
 # Claude
 **/.claude/settings.local.json
 **/.claude/worktrees/
+
+
+# APM dependencies
+apm_modules/
