@@ -1,0 +1,26 @@
+name: Dependency
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+permissions: 
+  contents: write # Dependency Graph
+
+jobs:
+  dependency-submission:
+    name: Submission / Review
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - name: "Dependency Submission: Brew"
+        uses: advanced-security/brew-dependency-submission-action@25113069cbb9f839378acfd72dadc90692c94a53 # v1.1
+
+      - name: 'Dependency Review'
+        uses: actions/dependency-review-action@fde92acd0840415674c16b39c7d703fc28bc511e # v3.1.2
+        if: github.event_name == 'pull_request'
+        with:
+          comment-summary-in-pr: always
