@@ -44,3 +44,4 @@ etcd 3.5.21
 svu 3.2.3
 cmctl 2.4.0
 apm 0.10.0
+shap 0.9.0
