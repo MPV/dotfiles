@@ -41,3 +41,7 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# local/manual zsh completions:
+typeset -gaU fpath=($fpath ~/.local/share/zsh/completions)
+
