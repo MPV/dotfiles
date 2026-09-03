@@ -20,3 +20,6 @@ Thumbs.db
 
 # APM dependencies
 apm_modules/
+
+# AIDD
+.symlinked/
