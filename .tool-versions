@@ -38,3 +38,4 @@ maven system
 hadolint 2.12.1-beta
 goss 0.4.9
 container-structure-test 1.19.3
+dyff 1.10.1
