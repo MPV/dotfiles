@@ -22,6 +22,23 @@ yabai -m signal --add app='^Ghostty$' event=window_destroyed action='yabai -m sp
 yabai -m signal --add app='^Finder$' event=window_created action='yabai -m space --focus next; sleep 0.01; yabai -m space --focus prev'
 yabai -m signal --add app='^Finder$' event=window_destroyed action='yabai -m space --focus next; sleep 0.01; yabai -m space --focus prev'
 
+# Route these apps to the first portrait-oriented (vertical) display whenever a window is created.
+for app_regex in '^Spotify$' '^Google Chat$' '^Discord$' '^Microsoft Teams$'; do
+    # Display is resolved per-event so hot-swapping vertical monitors works without restarting yabai.
+    # Skip if already fullscreen — macOS restores prior fullscreen state on relaunch, and `--toggle` would flip it off.
+    # Sleep before toggle lets the display-move settle so the AX fullscreen request isn't dropped mid-animation.
+    # Verify-and-retry covers slow-settling apps (e.g. Google Chat) that drop the first AX request while still loading.
+    yabai -m signal --add event=window_created app="${app_regex}" \
+        action="yabai -m query --windows --window \$YABAI_WINDOW_ID | jq -e '.[\"is-native-fullscreen\"]' >/dev/null && exit 0; \
+                vertical_display=\$(yabai -m query --displays | jq '.[] | select(.frame.h > .frame.w) | .index' | head -n1); \
+                yabai -m window \$YABAI_WINDOW_ID --display \$vertical_display; \
+                sleep 1.0; \
+                yabai -m window \$YABAI_WINDOW_ID --toggle native-fullscreen; \
+                sleep 1.5; \
+                yabai -m query --windows --window \$YABAI_WINDOW_ID | jq -e '.[\"is-native-fullscreen\"]' >/dev/null && exit 0; \
+                yabai -m window \$YABAI_WINDOW_ID --toggle native-fullscreen"
+done
+
 # global settings
 yabai -m config mouse_follows_focus          off
 yabai -m config focus_follows_mouse          autofocus # autoraise
