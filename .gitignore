@@ -12,3 +12,7 @@ Thumbs.db
 
 # VScode repo config
 .vscode/
+
+# Claude
+**/.claude/settings.local.json
+**/.claude/worktrees/
