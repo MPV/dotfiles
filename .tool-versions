@@ -32,7 +32,7 @@ asdf-plugin-manager 1.5.0
 promtool v2.47.0
 mimirtool 2.17.11
 amtool v0.27.0
-clusterctl 1.14.1
+clusterctl 1.14.2
 gcloud system
 maven system
 hadolint 2.15.1
