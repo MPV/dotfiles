@@ -10,7 +10,7 @@ dependencies:
     - mattpocock/skills/skills/engineering/domain-modeling#v1.2.3
     - mattpocock/skills/skills/engineering/grill-with-docs#v1.2.3
     - mattpocock/skills/skills/productivity/grill-me#v1.2.3
-    - mattpocock/skills/skills/productivity/grilling#v1.0.0
+    - mattpocock/skills/skills/productivity/grilling#v1.2.3
     - blader/humanizer#v3.0.0
   mcp: []
 scripts: {}
