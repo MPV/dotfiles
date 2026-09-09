@@ -1,0 +1,9 @@
+name: humanizer
+version: 3.0.0
+description: Rewrite AI-sounding text so it reads naturally without changing what
+  it says.
+author: blader
+license: MIT
+repository: https://github.com/blader/humanizer
+homepage: https://github.com/blader/humanizer
+type: hybrid
