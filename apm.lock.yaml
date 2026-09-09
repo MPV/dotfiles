@@ -1,11 +1,11 @@
 lockfile_version: '1'
-generated_at: '2026-09-03T11:41:54.883107+00:00'
-apm_version: 0.29.0
+generated_at: '2026-09-09T09:52:08.721329+00:00'
+apm_version: 0.30.0
 dependencies:
 - repo_url: google/skills
   name: cloud-sql-basics
   host: github.com
-  resolved_commit: 6f0b8771638112948f03601e54f4602dd3cb7cc7
+  resolved_commit: a407c6bf560f6e308eb69325a4662817b2624bdb
   version: unknown
   virtual_path: skills/cloud/cloud-sql-basics
   is_virtual: true
@@ -43,7 +43,7 @@ dependencies:
     .claude/skills/cloud-sql-basics/references/iac-usage.md: sha256:5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f
     .claude/skills/cloud-sql-basics/references/iam-security.md: sha256:af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977
     .claude/skills/cloud-sql-basics/references/mcp-usage.md: sha256:9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab
-  content_hash: sha256:8385aa80015627fef3104adf743cee7a81bda47c8ccebf182050638ad0fb0f2d
+  content_hash: sha256:199acf25807af6949cf24ad792db1c678353aeb442774feb53dff3fafbc756f2
 - repo_url: google/skills
   name: gke-basics
   host: github.com
