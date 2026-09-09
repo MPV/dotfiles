@@ -1,5 +1,5 @@
 lockfile_version: '1'
-generated_at: '2026-09-09T09:53:41.287133+00:00'
+generated_at: '2026-09-09T09:59:02.620879+00:00'
 apm_version: 0.30.0
 dependencies:
 - repo_url: blader/humanizer
@@ -107,6 +107,7 @@ dependencies:
   - .agents/skills/cloud-sql-basics/references/cli-usage.md
   - .agents/skills/cloud-sql-basics/references/client-library-usage.md
   - .agents/skills/cloud-sql-basics/references/core-concepts.md
+  - .agents/skills/cloud-sql-basics/references/dr-backups.md
   - .agents/skills/cloud-sql-basics/references/iac-usage.md
   - .agents/skills/cloud-sql-basics/references/iam-security.md
   - .agents/skills/cloud-sql-basics/references/mcp-usage.md
@@ -115,25 +116,28 @@ dependencies:
   - .claude/skills/cloud-sql-basics/references/cli-usage.md
   - .claude/skills/cloud-sql-basics/references/client-library-usage.md
   - .claude/skills/cloud-sql-basics/references/core-concepts.md
+  - .claude/skills/cloud-sql-basics/references/dr-backups.md
   - .claude/skills/cloud-sql-basics/references/iac-usage.md
   - .claude/skills/cloud-sql-basics/references/iam-security.md
   - .claude/skills/cloud-sql-basics/references/mcp-usage.md
   - .copilot/skills/cloud-sql-basics
   deployed_file_hashes:
-    .agents/skills/cloud-sql-basics/SKILL.md: sha256:39ac3a02c4ab9c28fcdb3767cf50da54f530158f94e7ed61cce47782dff1bb5f
-    .agents/skills/cloud-sql-basics/references/cli-usage.md: sha256:e4175c9fa56fcd11703167f3591fedc011a77503ca56b35836ab09315d1e49a6
-    .agents/skills/cloud-sql-basics/references/client-library-usage.md: sha256:729676dab8f4a2c6c9847848be5c5b4ed79d45aad38c6ae0ede886b61babe20c
-    .agents/skills/cloud-sql-basics/references/core-concepts.md: sha256:1780d8bc002a8c12f0f2a657c01b18d5525f9bfc73e7033ed12dddb00f3512ab
-    .agents/skills/cloud-sql-basics/references/iac-usage.md: sha256:5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f
-    .agents/skills/cloud-sql-basics/references/iam-security.md: sha256:af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977
-    .agents/skills/cloud-sql-basics/references/mcp-usage.md: sha256:9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab
-    .claude/skills/cloud-sql-basics/SKILL.md: sha256:39ac3a02c4ab9c28fcdb3767cf50da54f530158f94e7ed61cce47782dff1bb5f
-    .claude/skills/cloud-sql-basics/references/cli-usage.md: sha256:e4175c9fa56fcd11703167f3591fedc011a77503ca56b35836ab09315d1e49a6
-    .claude/skills/cloud-sql-basics/references/client-library-usage.md: sha256:729676dab8f4a2c6c9847848be5c5b4ed79d45aad38c6ae0ede886b61babe20c
-    .claude/skills/cloud-sql-basics/references/core-concepts.md: sha256:1780d8bc002a8c12f0f2a657c01b18d5525f9bfc73e7033ed12dddb00f3512ab
-    .claude/skills/cloud-sql-basics/references/iac-usage.md: sha256:5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f
-    .claude/skills/cloud-sql-basics/references/iam-security.md: sha256:af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977
-    .claude/skills/cloud-sql-basics/references/mcp-usage.md: sha256:9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab
+    .agents/skills/cloud-sql-basics/SKILL.md: sha256:56068df28db99f738161b3ddce1a698297a4aa84be4109003445d3f1e25c1394
+    .agents/skills/cloud-sql-basics/references/cli-usage.md: sha256:121a001122e06c170cc727e3885092a109db11958edc350a3f0346f1d04828d8
+    .agents/skills/cloud-sql-basics/references/client-library-usage.md: sha256:4f0cbb8375dc70030399344570deef700bd73b09733f3faac3c7acd43684141e
+    .agents/skills/cloud-sql-basics/references/core-concepts.md: sha256:80a09e3c78fb0b86f4d7b9d16bba13fe7d180c976e1ad92236b217d685632670
+    .agents/skills/cloud-sql-basics/references/dr-backups.md: sha256:f39aac93394d151d03a3e70e95b6c5461aa15240531e6c804dbbf3f54e871657
+    .agents/skills/cloud-sql-basics/references/iac-usage.md: sha256:e7755c5ea32aacaa5b9703d111e4c78a24f3667858af1dcfa2032caa52d64bc9
+    .agents/skills/cloud-sql-basics/references/iam-security.md: sha256:0294a49eff4d43877be8cd87f71face754dc68e2b74b7c498337b3ece7097b5f
+    .agents/skills/cloud-sql-basics/references/mcp-usage.md: sha256:b20630471b59961d85b05c2116f58ed4f3f271146f65a3059f9b0b6a84da1143
+    .claude/skills/cloud-sql-basics/SKILL.md: sha256:56068df28db99f738161b3ddce1a698297a4aa84be4109003445d3f1e25c1394
+    .claude/skills/cloud-sql-basics/references/cli-usage.md: sha256:121a001122e06c170cc727e3885092a109db11958edc350a3f0346f1d04828d8
+    .claude/skills/cloud-sql-basics/references/client-library-usage.md: sha256:4f0cbb8375dc70030399344570deef700bd73b09733f3faac3c7acd43684141e
+    .claude/skills/cloud-sql-basics/references/core-concepts.md: sha256:80a09e3c78fb0b86f4d7b9d16bba13fe7d180c976e1ad92236b217d685632670
+    .claude/skills/cloud-sql-basics/references/dr-backups.md: sha256:f39aac93394d151d03a3e70e95b6c5461aa15240531e6c804dbbf3f54e871657
+    .claude/skills/cloud-sql-basics/references/iac-usage.md: sha256:e7755c5ea32aacaa5b9703d111e4c78a24f3667858af1dcfa2032caa52d64bc9
+    .claude/skills/cloud-sql-basics/references/iam-security.md: sha256:0294a49eff4d43877be8cd87f71face754dc68e2b74b7c498337b3ece7097b5f
+    .claude/skills/cloud-sql-basics/references/mcp-usage.md: sha256:b20630471b59961d85b05c2116f58ed4f3f271146f65a3059f9b0b6a84da1143
   content_hash: sha256:199acf25807af6949cf24ad792db1c678353aeb442774feb53dff3fafbc756f2
 - repo_url: google/skills
   name: gke-basics
@@ -448,7 +452,7 @@ deployments:
   owners:
   - google/skills/skills/cloud/cloud-sql-basics
   active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:39ac3a02c4ab9c28fcdb3767cf50da54f530158f94e7ed61cce47782dff1bb5f
+  content_hash: sha256:56068df28db99f738161b3ddce1a698297a4aa84be4109003445d3f1e25c1394
 - kind: project-relative
   target: claude
   value: .claude/skills/cloud-sql-basics/references/cli-usage.md
@@ -457,7 +461,7 @@ deployments:
   owners:
   - google/skills/skills/cloud/cloud-sql-basics
   active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:e4175c9fa56fcd11703167f3591fedc011a77503ca56b35836ab09315d1e49a6
+  content_hash: sha256:121a001122e06c170cc727e3885092a109db11958edc350a3f0346f1d04828d8
 - kind: project-relative
   target: claude
   value: .claude/skills/cloud-sql-basics/references/client-library-usage.md
@@ -466,7 +470,7 @@ deployments:
   owners:
   - google/skills/skills/cloud/cloud-sql-basics
   active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:729676dab8f4a2c6c9847848be5c5b4ed79d45aad38c6ae0ede886b61babe20c
+  content_hash: sha256:4f0cbb8375dc70030399344570deef700bd73b09733f3faac3c7acd43684141e
 - kind: project-relative
   target: claude
   value: .claude/skills/cloud-sql-basics/references/core-concepts.md
@@ -475,7 +479,16 @@ deployments:
   owners:
   - google/skills/skills/cloud/cloud-sql-basics
   active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:1780d8bc002a8c12f0f2a657c01b18d5525f9bfc73e7033ed12dddb00f3512ab
+  content_hash: sha256:80a09e3c78fb0b86f4d7b9d16bba13fe7d180c976e1ad92236b217d685632670
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cloud-sql-basics/references/dr-backups.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:f39aac93394d151d03a3e70e95b6c5461aa15240531e6c804dbbf3f54e871657
 - kind: project-relative
   target: claude
   value: .claude/skills/cloud-sql-basics/references/iac-usage.md
@@ -484,7 +497,7 @@ deployments:
   owners:
   - google/skills/skills/cloud/cloud-sql-basics
   active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f
+  content_hash: sha256:e7755c5ea32aacaa5b9703d111e4c78a24f3667858af1dcfa2032caa52d64bc9
 - kind: project-relative
   target: claude
   value: .claude/skills/cloud-sql-basics/references/iam-security.md
@@ -493,7 +506,7 @@ deployments:
   owners:
   - google/skills/skills/cloud/cloud-sql-basics
   active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977
+  content_hash: sha256:0294a49eff4d43877be8cd87f71face754dc68e2b74b7c498337b3ece7097b5f
 - kind: project-relative
   target: claude
   value: .claude/skills/cloud-sql-basics/references/mcp-usage.md
@@ -502,7 +515,7 @@ deployments:
   owners:
   - google/skills/skills/cloud/cloud-sql-basics
   active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab
+  content_hash: sha256:b20630471b59961d85b05c2116f58ed4f3f271146f65a3059f9b0b6a84da1143
 - kind: project-relative
   target: claude
   value: .claude/skills/domain-modeling
@@ -946,6 +959,618 @@ deployments:
   content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
 - kind: project-relative
   target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:56068df28db99f738161b3ddce1a698297a4aa84be4109003445d3f1e25c1394
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/references/cli-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:121a001122e06c170cc727e3885092a109db11958edc350a3f0346f1d04828d8
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/references/client-library-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:4f0cbb8375dc70030399344570deef700bd73b09733f3faac3c7acd43684141e
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/references/core-concepts.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:80a09e3c78fb0b86f4d7b9d16bba13fe7d180c976e1ad92236b217d685632670
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/references/dr-backups.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:f39aac93394d151d03a3e70e95b6c5461aa15240531e6c804dbbf3f54e871657
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/references/iac-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:e7755c5ea32aacaa5b9703d111e4c78a24f3667858af1dcfa2032caa52d64bc9
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/references/iam-security.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:0294a49eff4d43877be8cd87f71face754dc68e2b74b7c498337b3ece7097b5f
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/cloud-sql-basics/references/mcp-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/cloud-sql-basics
+  active_owner: google/skills/skills/cloud/cloud-sql-basics
+  content_hash: sha256:b20630471b59961d85b05c2116f58ed4f3f271146f65a3059f9b0b6a84da1143
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/domain-modeling
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/domain-modeling
+  active_owner: mattpocock/skills/skills/engineering/domain-modeling
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/domain-modeling/ADR-FORMAT.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/domain-modeling
+  active_owner: mattpocock/skills/skills/engineering/domain-modeling
+  content_hash: sha256:f1f36cd3f8d3b6474ddd5855da4e233bfc4ae1a1c5024909ccf11871819a41b2
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/domain-modeling/CONTEXT-FORMAT.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/domain-modeling
+  active_owner: mattpocock/skills/skills/engineering/domain-modeling
+  content_hash: sha256:b8cc318f2a4285b530e908b6bc43901c3c5cd11100362636bbc4216639bef597
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/domain-modeling/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/domain-modeling
+  active_owner: mattpocock/skills/skills/engineering/domain-modeling
+  content_hash: sha256:152e2c97239affb12a60c5f4a7e74ab546a49ae169688c81f4e2ccc42dafa579
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:dce1ef971031871988194ca38a89d2d15544af5469a2c2e990f51056264ae444
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/assets/default-deny-netpol.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:ca5b0a70d4ccfaecea0f71001ada99ca04143b29c5fa2fb7e66bb1216fc93d84
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/assets/golden-path-autopilot.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:fb4729c0fa8b1bf790de34fc24621e641e76dc451009926a7b5af9eda67e49ab
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/assets/hpa-example.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:f733a5bee46d4e5473db960867fb8057cfe67a40520737dc5a3b4d3740876a1d
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/assets/vpa-example.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:cdebc46b58eef3764b97200670df10728b33d6c293fed6e3f7a202ea13c5929a
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/assets/workload-identity-pod.yaml
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:d03d5429c8966a0e2e4121f2fbf6a480e997c033f56567609cb32e629b16abe5
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/cli-reference.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:9cc6608c1afaaaf426d7371fe5b7981fe38f0ccdac8c4a256c1a79baafb2516b
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/client-library-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:f4d341ba706124b74168a116a683582ba676150f691d046a4841cca28103980d
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/core-concepts.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:418684017a1d941d26d4c6922e967c41c2b7c16b8586a8934f04ee93750b2dc7
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-app-onboarding.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:6ff4250799d122b7be9bcf9b0e224d65752281ac240316918e283cfbec0bf86e
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-backup-dr.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:061d2dfea5188f591b256c6d6ff5b5164886347698bb92463b80aad42fcc9523
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-batch-hpc.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:d660bc3ca5efb2cfc6b74c8c7372d37677ab362b06d7d9cab804017c976e1e0c
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-cluster-creation.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:452e15bff9b61ba792d05382735d97ab065db7eda8cddae8eb4655ebd89b08bb
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-compute-classes.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:94ebe1d5a9dccc9d265cf8f109e99b8d8bab954395f0204ac98f36a5df39b897
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-cost.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:9b9962eaca18306bcb72685d95f2f20849b511bbf53d1c3051f924b09e366213
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-golden-path.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:03a15ae51339603c53933fb04605324130d7ca5345ac2e598121c613a43cd965
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-inference.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:3161e120ac380bf0004ddad2b8b7e0d4deee89da1f9f247082e9ca917bdd3926
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-multitenancy.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:280a2e0704998d10d2d99e5456c06432d027a8fe69c288eb914f79c34075ae8e
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-networking.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:bff0050be368374d769d599a61b62342874e2cc8e107d3732bd36b7fc4230a5b
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-observability.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:294dd9c18c5af0742d5dd6e0fa6bff2ec44d10181b7b0f4ddda86ebef6b598c0
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-reliability.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:e7b8b3fb18bee4796ef6ff06a60fd441a9f36267c41f97ee3f05f5fd2e29903a
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-scaling.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:649a2d28a26880166a22b033a586c544ae60f04528a02f0b6aa80e9114f30cce
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-security.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:41efb5fd2680876f32ea736dc8732c5b2832e3e135e114dd4e3051d911539a94
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-storage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:c61e94c3e758f6c21290013cc9b681b23544ba5e506b65da227dc7aaa7d45cac
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/gke-upgrades.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:47313704fc1b6dad6b597d29cf050ce14cb4e9d48868282db70bf1a7f2398c8e
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/iac-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:636b533e4554de8518bcbb463f871e338c4f9a69926ad9b21cfc646e20cb526e
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/gke-basics/references/mcp-usage.md
+  runtime: null
+  scope: project
+  owners:
+  - google/skills/skills/cloud/gke-basics
+  active_owner: google/skills/skills/cloud/gke-basics
+  content_hash: sha256:331c5f0852b34cfb6b9e1b9975af93060b79680f124317de56a902c60e2e417b
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/grill-me
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/grill-me/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: sha256:6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/grill-with-docs
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/grill-with-docs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
+  content_hash: sha256:610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/grilling
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grilling
+  active_owner: mattpocock/skills/skills/productivity/grilling
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/grilling/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grilling
+  active_owner: mattpocock/skills/skills/productivity/grilling
+  content_hash: sha256:fe00af3e1815f97c0a7644605479328a726b5cd95ba6ef56a4be2a92fae6c20f
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/.claude-plugin/marketplace.json
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/.claude-plugin/plugin.json
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/.github/workflows/validate.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/AGENTS.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/LICENSE
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/README.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/agents/openai.yaml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:97c53666e3f8a30c0922b704ac40f0d6c750f5985e19710f60aabc3b615f2772
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/scripts/validate-package.py
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
+- kind: project-relative
+  target: copilot
   value: .copilot/skills/cloud-sql-basics
   runtime: null
   scope: user
@@ -980,606 +1605,3 @@ deployments:
   - mattpocock/skills/skills/engineering/grill-with-docs
   active_owner: mattpocock/skills/skills/engineering/grill-with-docs
   content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:39ac3a02c4ab9c28fcdb3767cf50da54f530158f94e7ed61cce47782dff1bb5f
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics/references/cli-usage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:e4175c9fa56fcd11703167f3591fedc011a77503ca56b35836ab09315d1e49a6
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics/references/client-library-usage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:729676dab8f4a2c6c9847848be5c5b4ed79d45aad38c6ae0ede886b61babe20c
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics/references/core-concepts.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:1780d8bc002a8c12f0f2a657c01b18d5525f9bfc73e7033ed12dddb00f3512ab
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics/references/iac-usage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics/references/iam-security.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/cloud-sql-basics/references/mcp-usage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/cloud-sql-basics
-  active_owner: google/skills/skills/cloud/cloud-sql-basics
-  content_hash: sha256:9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/domain-modeling
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/engineering/domain-modeling
-  active_owner: mattpocock/skills/skills/engineering/domain-modeling
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/domain-modeling/ADR-FORMAT.md
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/engineering/domain-modeling
-  active_owner: mattpocock/skills/skills/engineering/domain-modeling
-  content_hash: sha256:f1f36cd3f8d3b6474ddd5855da4e233bfc4ae1a1c5024909ccf11871819a41b2
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/domain-modeling/CONTEXT-FORMAT.md
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/engineering/domain-modeling
-  active_owner: mattpocock/skills/skills/engineering/domain-modeling
-  content_hash: sha256:b8cc318f2a4285b530e908b6bc43901c3c5cd11100362636bbc4216639bef597
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/domain-modeling/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/engineering/domain-modeling
-  active_owner: mattpocock/skills/skills/engineering/domain-modeling
-  content_hash: sha256:152e2c97239affb12a60c5f4a7e74ab546a49ae169688c81f4e2ccc42dafa579
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:dce1ef971031871988194ca38a89d2d15544af5469a2c2e990f51056264ae444
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/assets/default-deny-netpol.yaml
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:ca5b0a70d4ccfaecea0f71001ada99ca04143b29c5fa2fb7e66bb1216fc93d84
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/assets/golden-path-autopilot.yaml
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:fb4729c0fa8b1bf790de34fc24621e641e76dc451009926a7b5af9eda67e49ab
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/assets/hpa-example.yaml
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:f733a5bee46d4e5473db960867fb8057cfe67a40520737dc5a3b4d3740876a1d
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/assets/vpa-example.yaml
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:cdebc46b58eef3764b97200670df10728b33d6c293fed6e3f7a202ea13c5929a
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/assets/workload-identity-pod.yaml
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:d03d5429c8966a0e2e4121f2fbf6a480e997c033f56567609cb32e629b16abe5
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/cli-reference.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:9cc6608c1afaaaf426d7371fe5b7981fe38f0ccdac8c4a256c1a79baafb2516b
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/client-library-usage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:f4d341ba706124b74168a116a683582ba676150f691d046a4841cca28103980d
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/core-concepts.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:418684017a1d941d26d4c6922e967c41c2b7c16b8586a8934f04ee93750b2dc7
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-app-onboarding.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:6ff4250799d122b7be9bcf9b0e224d65752281ac240316918e283cfbec0bf86e
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-backup-dr.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:061d2dfea5188f591b256c6d6ff5b5164886347698bb92463b80aad42fcc9523
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-batch-hpc.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:d660bc3ca5efb2cfc6b74c8c7372d37677ab362b06d7d9cab804017c976e1e0c
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-cluster-creation.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:452e15bff9b61ba792d05382735d97ab065db7eda8cddae8eb4655ebd89b08bb
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-compute-classes.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:94ebe1d5a9dccc9d265cf8f109e99b8d8bab954395f0204ac98f36a5df39b897
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-cost.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:9b9962eaca18306bcb72685d95f2f20849b511bbf53d1c3051f924b09e366213
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-golden-path.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:03a15ae51339603c53933fb04605324130d7ca5345ac2e598121c613a43cd965
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-inference.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:3161e120ac380bf0004ddad2b8b7e0d4deee89da1f9f247082e9ca917bdd3926
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-multitenancy.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:280a2e0704998d10d2d99e5456c06432d027a8fe69c288eb914f79c34075ae8e
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-networking.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:bff0050be368374d769d599a61b62342874e2cc8e107d3732bd36b7fc4230a5b
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-observability.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:294dd9c18c5af0742d5dd6e0fa6bff2ec44d10181b7b0f4ddda86ebef6b598c0
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-reliability.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:e7b8b3fb18bee4796ef6ff06a60fd441a9f36267c41f97ee3f05f5fd2e29903a
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-scaling.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:649a2d28a26880166a22b033a586c544ae60f04528a02f0b6aa80e9114f30cce
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-security.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:41efb5fd2680876f32ea736dc8732c5b2832e3e135e114dd4e3051d911539a94
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-storage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:c61e94c3e758f6c21290013cc9b681b23544ba5e506b65da227dc7aaa7d45cac
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/gke-upgrades.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:47313704fc1b6dad6b597d29cf050ce14cb4e9d48868282db70bf1a7f2398c8e
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/iac-usage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:636b533e4554de8518bcbb463f871e338c4f9a69926ad9b21cfc646e20cb526e
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/gke-basics/references/mcp-usage.md
-  runtime: null
-  scope: project
-  owners:
-  - google/skills/skills/cloud/gke-basics
-  active_owner: google/skills/skills/cloud/gke-basics
-  content_hash: sha256:331c5f0852b34cfb6b9e1b9975af93060b79680f124317de56a902c60e2e417b
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/grill-me
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/productivity/grill-me
-  active_owner: mattpocock/skills/skills/productivity/grill-me
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/grill-me/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/productivity/grill-me
-  active_owner: mattpocock/skills/skills/productivity/grill-me
-  content_hash: sha256:6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/grill-with-docs
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/engineering/grill-with-docs
-  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/grill-with-docs/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/engineering/grill-with-docs
-  active_owner: mattpocock/skills/skills/engineering/grill-with-docs
-  content_hash: sha256:610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/grilling
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/productivity/grilling
-  active_owner: mattpocock/skills/skills/productivity/grilling
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/grilling/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - mattpocock/skills/skills/productivity/grilling
-  active_owner: mattpocock/skills/skills/productivity/grilling
-  content_hash: sha256:fe00af3e1815f97c0a7644605479328a726b5cd95ba6ef56a4be2a92fae6c20f
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: null
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/.claude-plugin/marketplace.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/.claude-plugin/plugin.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/.github/workflows/validate.yml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/AGENTS.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/LICENSE
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/README.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/agents/openai.yaml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/apm.yml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:97c53666e3f8a30c0922b704ac40f0d6c750f5985e19710f60aabc3b615f2772
-- kind: project-relative
-  target: legacy
-  value: .agents/skills/humanizer/scripts/validate-package.py
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
