@@ -1,97 +1,75 @@
 lockfile_version: '1'
-generated_at: '2026-09-09T11:07:32.575716+00:00'
-apm_version: 0.30.0
+generated_at: '2026-09-28T06:36:51.369705+00:00'
+apm_version: 0.32.0
 dependencies:
 - repo_url: blader/humanizer
   name: humanizer
   host: github.com
-  resolved_commit: 9862685f575c65a8247f90369951df1b3416e3d6
-  resolved_ref: v3.0.0
-  version: 3.0.0
-  package_type: hybrid
+  resolved_commit: 225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8
+  resolved_ref: v3.1.0
+  version: 3.1.0
+  package_type: marketplace_plugin
   deployed_files:
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml
-  - .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py
   - .agents/skills/humanizer
   - .agents/skills/humanizer/.claude-plugin/marketplace.json
   - .agents/skills/humanizer/.claude-plugin/plugin.json
+  - .agents/skills/humanizer/.cursor-plugin/plugin.json
+  - .agents/skills/humanizer/.github/ISSUE_TEMPLATE/config.yml
+  - .agents/skills/humanizer/.github/ISSUE_TEMPLATE/new-pattern.yml
+  - .agents/skills/humanizer/.github/ISSUE_TEMPLATE/rewrite-problem.yml
   - .agents/skills/humanizer/.github/workflows/validate.yml
   - .agents/skills/humanizer/AGENTS.md
+  - .agents/skills/humanizer/CHANGELOG.md
   - .agents/skills/humanizer/LICENSE
   - .agents/skills/humanizer/README.md
   - .agents/skills/humanizer/SKILL.md
   - .agents/skills/humanizer/agents/openai.yaml
-  - .agents/skills/humanizer/apm.yml
   - .agents/skills/humanizer/scripts/validate-package.py
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml
-  - .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py
   - .claude/skills/humanizer
   - .claude/skills/humanizer/.claude-plugin/marketplace.json
   - .claude/skills/humanizer/.claude-plugin/plugin.json
+  - .claude/skills/humanizer/.cursor-plugin/plugin.json
+  - .claude/skills/humanizer/.github/ISSUE_TEMPLATE/config.yml
+  - .claude/skills/humanizer/.github/ISSUE_TEMPLATE/new-pattern.yml
+  - .claude/skills/humanizer/.github/ISSUE_TEMPLATE/rewrite-problem.yml
   - .claude/skills/humanizer/.github/workflows/validate.yml
   - .claude/skills/humanizer/AGENTS.md
+  - .claude/skills/humanizer/CHANGELOG.md
   - .claude/skills/humanizer/LICENSE
   - .claude/skills/humanizer/README.md
   - .claude/skills/humanizer/SKILL.md
   - .claude/skills/humanizer/agents/openai.yaml
-  - .claude/skills/humanizer/apm.yml
   - .claude/skills/humanizer/scripts/validate-package.py
   deployed_file_hashes:
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-    .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
-    .agents/skills/humanizer/.claude-plugin/marketplace.json: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-    .agents/skills/humanizer/.claude-plugin/plugin.json: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
+    .agents/skills/humanizer/.claude-plugin/marketplace.json: sha256:e539740285b660d2288a38b6d9b237396c6769828c671c46b9f91e760db6cc29
+    .agents/skills/humanizer/.claude-plugin/plugin.json: sha256:054c0afeeb03c12f01a7f156da949edfdec3a2b756588f5ff4ee7357b0c07f6a
+    .agents/skills/humanizer/.cursor-plugin/plugin.json: sha256:d1e0b50594cf4bbe57fd164b771b401713a91b76b5a213ebe8f4558bb2036546
+    .agents/skills/humanizer/.github/ISSUE_TEMPLATE/config.yml: sha256:cb7e95de7606d07654024c8d47916796b307033e23ddb2b0a821a9bf89e999ef
+    .agents/skills/humanizer/.github/ISSUE_TEMPLATE/new-pattern.yml: sha256:7436d578fa0056a09da5da6da950a03cb49f3ce27cf268ae295eb3d7ca19f604
+    .agents/skills/humanizer/.github/ISSUE_TEMPLATE/rewrite-problem.yml: sha256:ecfe5e82c5b6d44683e0cb63cfad117dfdd16e30cc6f03510ef335414eea4947
     .agents/skills/humanizer/.github/workflows/validate.yml: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-    .agents/skills/humanizer/AGENTS.md: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
+    .agents/skills/humanizer/AGENTS.md: sha256:de84a449da400454df1225ddb1ced728c35bf0be7811b239e3370c7dbe1f4e69
+    .agents/skills/humanizer/CHANGELOG.md: sha256:b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa
     .agents/skills/humanizer/LICENSE: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-    .agents/skills/humanizer/README.md: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-    .agents/skills/humanizer/SKILL.md: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
+    .agents/skills/humanizer/README.md: sha256:a07a054f230dca1e3d25e32ba6c808905b743cc6fa56bf8b6868cee0b12a0432
+    .agents/skills/humanizer/SKILL.md: sha256:0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad
     .agents/skills/humanizer/agents/openai.yaml: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-    .agents/skills/humanizer/apm.yml: sha256:97c53666e3f8a30c0922b704ac40f0d6c750f5985e19710f60aabc3b615f2772
-    .agents/skills/humanizer/scripts/validate-package.py: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-    .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
-    .claude/skills/humanizer/.claude-plugin/marketplace.json: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-    .claude/skills/humanizer/.claude-plugin/plugin.json: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
+    .agents/skills/humanizer/scripts/validate-package.py: sha256:941bd99e52b2ba21449719bb7969607ac8117e3dc173d0c9dfe64fd274c65938
+    .claude/skills/humanizer/.claude-plugin/marketplace.json: sha256:e539740285b660d2288a38b6d9b237396c6769828c671c46b9f91e760db6cc29
+    .claude/skills/humanizer/.claude-plugin/plugin.json: sha256:054c0afeeb03c12f01a7f156da949edfdec3a2b756588f5ff4ee7357b0c07f6a
+    .claude/skills/humanizer/.cursor-plugin/plugin.json: sha256:d1e0b50594cf4bbe57fd164b771b401713a91b76b5a213ebe8f4558bb2036546
+    .claude/skills/humanizer/.github/ISSUE_TEMPLATE/config.yml: sha256:cb7e95de7606d07654024c8d47916796b307033e23ddb2b0a821a9bf89e999ef
+    .claude/skills/humanizer/.github/ISSUE_TEMPLATE/new-pattern.yml: sha256:7436d578fa0056a09da5da6da950a03cb49f3ce27cf268ae295eb3d7ca19f604
+    .claude/skills/humanizer/.github/ISSUE_TEMPLATE/rewrite-problem.yml: sha256:ecfe5e82c5b6d44683e0cb63cfad117dfdd16e30cc6f03510ef335414eea4947
     .claude/skills/humanizer/.github/workflows/validate.yml: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-    .claude/skills/humanizer/AGENTS.md: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
+    .claude/skills/humanizer/AGENTS.md: sha256:de84a449da400454df1225ddb1ced728c35bf0be7811b239e3370c7dbe1f4e69
+    .claude/skills/humanizer/CHANGELOG.md: sha256:b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa
     .claude/skills/humanizer/LICENSE: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-    .claude/skills/humanizer/README.md: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-    .claude/skills/humanizer/SKILL.md: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
+    .claude/skills/humanizer/README.md: sha256:a07a054f230dca1e3d25e32ba6c808905b743cc6fa56bf8b6868cee0b12a0432
+    .claude/skills/humanizer/SKILL.md: sha256:0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad
     .claude/skills/humanizer/agents/openai.yaml: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-    .claude/skills/humanizer/apm.yml: sha256:97c53666e3f8a30c0922b704ac40f0d6c750f5985e19710f60aabc3b615f2772
-    .claude/skills/humanizer/scripts/validate-package.py: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
-  content_hash: sha256:17546607bf2d4f89fc2418ee53870164b37cb57c9dfa5967a57752190c697254
+    .claude/skills/humanizer/scripts/validate-package.py: sha256:941bd99e52b2ba21449719bb7969607ac8117e3dc173d0c9dfe64fd274c65938
+  content_hash: sha256:be1d22808bd1662a4342a16e987562652e3e7918be5fccd32850eab2387cd9d1
   declared_license: MIT
 - repo_url: google/skills
   name: cloud-sql-basics
@@ -361,96 +339,6 @@ dependencies:
     .claude/skills/grilling/agents/openai.yaml: sha256:1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b
   content_hash: sha256:6f3a681f493ac92bf3c0f1263a9bf89f10f8f406623f3fbe5c87268e6d09e91e
 deployments:
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: null
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-- kind: project-relative
-  target: claude
-  value: .claude/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
 - kind: project-relative
   target: claude
   value: .claude/skills/cloud-sql-basics
@@ -927,7 +815,7 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
+  content_hash: sha256:e539740285b660d2288a38b6d9b237396c6769828c671c46b9f91e760db6cc29
 - kind: project-relative
   target: claude
   value: .claude/skills/humanizer/.claude-plugin/plugin.json
@@ -936,7 +824,43 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
+  content_hash: sha256:054c0afeeb03c12f01a7f156da949edfdec3a2b756588f5ff4ee7357b0c07f6a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/humanizer/.cursor-plugin/plugin.json
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:d1e0b50594cf4bbe57fd164b771b401713a91b76b5a213ebe8f4558bb2036546
+- kind: project-relative
+  target: claude
+  value: .claude/skills/humanizer/.github/ISSUE_TEMPLATE/config.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:cb7e95de7606d07654024c8d47916796b307033e23ddb2b0a821a9bf89e999ef
+- kind: project-relative
+  target: claude
+  value: .claude/skills/humanizer/.github/ISSUE_TEMPLATE/new-pattern.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:7436d578fa0056a09da5da6da950a03cb49f3ce27cf268ae295eb3d7ca19f604
+- kind: project-relative
+  target: claude
+  value: .claude/skills/humanizer/.github/ISSUE_TEMPLATE/rewrite-problem.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:ecfe5e82c5b6d44683e0cb63cfad117dfdd16e30cc6f03510ef335414eea4947
 - kind: project-relative
   target: claude
   value: .claude/skills/humanizer/.github/workflows/validate.yml
@@ -954,7 +878,16 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
+  content_hash: sha256:de84a449da400454df1225ddb1ced728c35bf0be7811b239e3370c7dbe1f4e69
+- kind: project-relative
+  target: claude
+  value: .claude/skills/humanizer/CHANGELOG.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa
 - kind: project-relative
   target: claude
   value: .claude/skills/humanizer/LICENSE
@@ -972,7 +905,7 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
+  content_hash: sha256:a07a054f230dca1e3d25e32ba6c808905b743cc6fa56bf8b6868cee0b12a0432
 - kind: project-relative
   target: claude
   value: .claude/skills/humanizer/SKILL.md
@@ -981,7 +914,7 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
+  content_hash: sha256:0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad
 - kind: project-relative
   target: claude
   value: .claude/skills/humanizer/agents/openai.yaml
@@ -993,112 +926,13 @@ deployments:
   content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
 - kind: project-relative
   target: claude
-  value: .claude/skills/humanizer/apm.yml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:97c53666e3f8a30c0922b704ac40f0d6c750f5985e19710f60aabc3b615f2772
-- kind: project-relative
-  target: claude
   value: .claude/skills/humanizer/scripts/validate-package.py
   runtime: null
   scope: project
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: null
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/marketplace.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.claude-plugin/plugin.json
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/.github/workflows/validate.yml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:f2d6a8780fb0b3cf6fa7d2ffccd72d0fc8bee29b4e63ea0fd65924712c9055fd
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/AGENTS.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/LICENSE
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/README.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/agents/openai.yaml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/6f6399248ff9bd19a56a833a12ec85a1894b34f66ddf600375bd75b7946baa5a/scripts/validate-package.py
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
+  content_hash: sha256:941bd99e52b2ba21449719bb7969607ac8117e3dc173d0c9dfe64fd274c65938
 - kind: project-relative
   target: copilot
   value: .agents/skills/cloud-sql-basics
@@ -1575,7 +1409,7 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:24261fcfead5f536e0a6f0c3fd27fa809c69393217d67d617adb6c83a2715eb7
+  content_hash: sha256:e539740285b660d2288a38b6d9b237396c6769828c671c46b9f91e760db6cc29
 - kind: project-relative
   target: copilot
   value: .agents/skills/humanizer/.claude-plugin/plugin.json
@@ -1584,7 +1418,43 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:ce4f3dd0397c9ca71fe9a089dd00cd132436cfeba4513c53cc6c486f537de43c
+  content_hash: sha256:054c0afeeb03c12f01a7f156da949edfdec3a2b756588f5ff4ee7357b0c07f6a
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/.cursor-plugin/plugin.json
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:d1e0b50594cf4bbe57fd164b771b401713a91b76b5a213ebe8f4558bb2036546
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/.github/ISSUE_TEMPLATE/config.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:cb7e95de7606d07654024c8d47916796b307033e23ddb2b0a821a9bf89e999ef
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/.github/ISSUE_TEMPLATE/new-pattern.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:7436d578fa0056a09da5da6da950a03cb49f3ce27cf268ae295eb3d7ca19f604
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/.github/ISSUE_TEMPLATE/rewrite-problem.yml
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:ecfe5e82c5b6d44683e0cb63cfad117dfdd16e30cc6f03510ef335414eea4947
 - kind: project-relative
   target: copilot
   value: .agents/skills/humanizer/.github/workflows/validate.yml
@@ -1602,7 +1472,16 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:8f5069d68622bc956e2d492f26879d2a06508e2ef16d2e573ab13f7a92a0607a
+  content_hash: sha256:de84a449da400454df1225ddb1ced728c35bf0be7811b239e3370c7dbe1f4e69
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/humanizer/CHANGELOG.md
+  runtime: null
+  scope: project
+  owners:
+  - blader/humanizer
+  active_owner: blader/humanizer
+  content_hash: sha256:b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa
 - kind: project-relative
   target: copilot
   value: .agents/skills/humanizer/LICENSE
@@ -1620,7 +1499,7 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0
+  content_hash: sha256:a07a054f230dca1e3d25e32ba6c808905b743cc6fa56bf8b6868cee0b12a0432
 - kind: project-relative
   target: copilot
   value: .agents/skills/humanizer/SKILL.md
@@ -1629,7 +1508,7 @@ deployments:
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5
+  content_hash: sha256:0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad
 - kind: project-relative
   target: copilot
   value: .agents/skills/humanizer/agents/openai.yaml
@@ -1641,22 +1520,13 @@ deployments:
   content_hash: sha256:9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736
 - kind: project-relative
   target: copilot
-  value: .agents/skills/humanizer/apm.yml
-  runtime: null
-  scope: project
-  owners:
-  - blader/humanizer
-  active_owner: blader/humanizer
-  content_hash: sha256:97c53666e3f8a30c0922b704ac40f0d6c750f5985e19710f60aabc3b615f2772
-- kind: project-relative
-  target: copilot
   value: .agents/skills/humanizer/scripts/validate-package.py
   runtime: null
   scope: project
   owners:
   - blader/humanizer
   active_owner: blader/humanizer
-  content_hash: sha256:750e5f50561b8a5285bd1a20ed8b127af65b1b25d50e88c2ce5fe8522943c8fd
+  content_hash: sha256:941bd99e52b2ba21449719bb7969607ac8117e3dc173d0c9dfe64fd274c65938
 - kind: project-relative
   target: copilot
   value: .copilot/skills/cloud-sql-basics
