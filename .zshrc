@@ -3,7 +3,9 @@ autoload -Uz compinit && compinit
 
 [ -f /usr/local/opt/antidote/share/antidote/antidote.zsh ] && source /usr/local/opt/antidote/share/antidote/antidote.zsh
 [ -f /opt/homebrew/opt/antidote/share/antidote/antidote.zsh ] && source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
-antidote load
+# Non-Homebrew installs (e.g. Linux / GitHub Codespaces), see: https://antidote.sh/install
+[ -f ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh ] && source ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh
+(( $+functions[antidote] )) && antidote load
 
 # Starship
 eval "$(starship init zsh)"
