@@ -13,9 +13,11 @@ export PATH="$HOME/bin:$PATH"       # ~/bin
 export PATH="./bin:$PATH"           # ./bin
 export PATH="$HOME/.krew/bin:$PATH" # ~/.krew/bin
 export PATH="$HOME/go/bin:$PATH"    # ~/go/bin
-export PATH="/usr/local/sbin:$PATH" # Homebrew
-export PATH="/Applications/IntelliJ IDEA CE.app/Contents/MacOS:$PATH" # idea
-export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH" # mysql
+if [[ "$OSTYPE" == darwin* ]]; then
+  export PATH="/usr/local/sbin:$PATH" # Homebrew
+  export PATH="/Applications/IntelliJ IDEA CE.app/Contents/MacOS:$PATH" # idea
+  export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH" # mysql
+fi
 export PATH="$ASDF_DATA_DIR/shims:$PATH" # asdf shims (first for precedence)
 
 # Locale (only if generated, e.g. not by default in GitHub Codespaces)
