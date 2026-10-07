@@ -4,8 +4,10 @@ alias tf="terraform"
 alias k="kubectl"
 
 # https://github.com/kubecolor/kubecolor#zsh
-alias kubectl="kubecolor"
-compdef kubecolor=kubectl
+if command -v kubecolor >/dev/null; then
+  alias kubectl="kubecolor"
+  compdef kubecolor=kubectl
+fi
 
 alias hubble-gke="kubectl exec -it -n gke-managed-dpv2-observability deployment/hubble-relay -c hubble-cli -- hubble"
 
