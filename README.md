@@ -28,6 +28,20 @@
    make asdf-plugin-manager-add-all
    ```
 
+### In GitHub Codespaces (or other Linux machines):
+
+[Codespaces runs `install.sh`](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account#dotfiles)
+when creating a codespace (with this repo selected as dotfiles repository). It:
+
+- symlinks a few cross-platform dotfiles (and the APM-installed skills) into `~`
+- includes `.gitconfig` from `~/.gitconfig` (keeping what Codespaces configures there)
+
+Changes only apply to new codespaces. To debug, re-run it in a codespace:
+
+```shell
+/workspaces/.codespaces/.persistedshare/dotfiles/install.sh
+```
+
 ### Daily / recurring usage:
 
 - Upgrade installed tools:
