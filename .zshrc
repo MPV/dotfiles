@@ -8,7 +8,7 @@ autoload -Uz compinit && compinit
 (( $+functions[antidote] )) && antidote load
 
 # Starship
-eval "$(starship init zsh)"
+command -v starship >/dev/null && eval "$(starship init zsh)"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
