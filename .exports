@@ -27,7 +27,7 @@ export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 
 # Kubectl/ArgoCD diff UX improvement:
 #export KUBECTL_EXTERNAL_DIFF="diff -u"
-export KUBECTL_EXTERNAL_DIFF="colordiff -u"
+command -v colordiff >/dev/null && export KUBECTL_EXTERNAL_DIFF="colordiff -u"
 #export KUBECTL_EXTERNAL_DIFF="dyff between --omit-header"
 
 # Don't read (the new/future default) Golang version for ASDF from go.mod and go.work files
