@@ -27,10 +27,11 @@
 [core]
 	excludesfile = ~/.gitignore
 	editor = code --wait
-	pager = delta
+	# Only use delta when installed (e.g. not by default in GitHub Codespaces)
+	pager = "if command -v delta >/dev/null 2>&1; then delta; else less; fi"
 
 [interactive]
-	diffFilter = delta --color-only
+	diffFilter = "if command -v delta >/dev/null 2>&1; then delta --color-only; else cat; fi"
 
 [delta]
 	features = line-numbers decorations # side-by-side
