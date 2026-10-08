@@ -1,7 +1,7 @@
 kubectl 1.31.7
 nodejs 20.20.2
 terraform 1.16.5
-golang 1.27.1
+golang 1.27.2
 kustomize 4.5.7
 helm 3.22.0
 yarn 1.22.4
