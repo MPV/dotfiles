@@ -18,6 +18,25 @@
       "autoReplaceStringTemplate": "{{{depName}}}{{indentation}}{{{packageName}}} {{{newDigest}}}",
       "datasourceTemplate": "git-refs",
       "versioningTemplate": "git"
+    },
+    {
+      "customType": "regex",
+      "description": [
+        "The built-in apm manager only looks up tags (git-tags/github-tags/",
+        "gitlab-tags), so an APM dependency pinned to a commit is detected but",
+        "never bumped. Track those commit pins as git digests instead, the same",
+        "way .plugin-versions is handled above. Tag pins (#v1.2.3) do not match",
+        "and stay with the apm manager, which also refreshes apm.lock.yaml."
+      ],
+      "managerFilePatterns": [
+        "/^apm\\.yml$/"
+      ],
+      "matchStrings": [
+        "(?<depName>(?<repo>[^/\\s#]+/[^/\\s#]+)[^\\s#]*)#(?<currentValue>)(?<currentDigest>[0-9a-f]{7,40})"
+      ],
+      "packageNameTemplate": "https://github.com/{{{repo}}}",
+      "datasourceTemplate": "git-refs",
+      "versioningTemplate": "git"
     }
   ],
   "ignoreTests": true,

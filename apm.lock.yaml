@@ -97,6 +97,7 @@ dependencies:
   name: cloud-sql-basics
   host: github.com
   resolved_commit: a407c6bf560f6e308eb69325a4662817b2624bdb
+  resolved_ref: a407c6bf560f6e308eb69325a4662817b2624bdb
   version: unknown
   virtual_path: skills/cloud/cloud-sql-basics
   is_virtual: true
