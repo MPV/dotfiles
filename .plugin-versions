@@ -25,7 +25,7 @@ mimirtool            https://github.com/asdf-community/asdf-mimirtool 4ddf1bf29a
 nodejs               https://github.com/asdf-vm/asdf-nodejs.git 779c8dc84b3bdab38c2c80622d315c2c3267f74b
 oc                   https://github.com/bartoszmajsak/asdf-oc.git               037f6d4
 packer               https://github.com/Banno/asdf-hashicorp.git d2557f97752761eecb50f63cd31b64c236d23089
-php                  https://github.com/asdf-community/asdf-php.git eeb8639e99835b42842ce84a182d075cde30d920
+php                  https://github.com/asdf-community/asdf-php.git 8c5198224745a37f275c8dd5032d946dec4ed2ac
 pluto                https://github.com/FairwindsOps/asdf-pluto.git 1e24ad5801a02eecceb46d32d2622b9f54de4535
 postgres             https://github.com/smashedtoatoms/asdf-postgres.git 2a69cc26d6324198a19375eb62d950907ea56019
 promtool             https://github.com/looztra/asdf-promtool                   48383a0
