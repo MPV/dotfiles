@@ -1,6 +1,8 @@
 # So much color
+# `auto` keeps colour when writing to a terminal but drops the escape codes
+# when output is piped or redirected, which `always` would corrupt.
 [color]
-	ui = always
+	ui = auto
 
 [color "branch"]
 	current = green bold
