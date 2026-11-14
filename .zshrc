@@ -1,3 +1,17 @@
+# Homebrew: set PATH/MANPATH/FPATH for whichever prefix exists on this machine.
+# Absolute paths are required because on Apple Silicon /opt/homebrew/bin is not
+# on the default PATH, so `brew` itself can't be found yet. Runs before compinit
+# so brew's completions (share/zsh/site-functions) make it onto fpath.
+if [ -z "$HOMEBREW_PREFIX" ]; then
+	for brew_bin in /opt/homebrew/bin/brew /usr/local/bin/brew /home/linuxbrew/.linuxbrew/bin/brew; do
+		if [ -x "$brew_bin" ]; then
+			eval "$("$brew_bin" shellenv)"
+			break
+		fi
+	done
+	unset brew_bin
+fi
+
 # Make tab-completion work without errors (command not found: compdef).
 # Only rebuild the completion dump (and run its security check) once a day;
 # every other startup reuses the cache via `compinit -C` for faster shells.
