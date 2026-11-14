@@ -8,11 +8,18 @@ else
 	compinit -C
 fi
 
-[ -f /usr/local/opt/antidote/share/antidote/antidote.zsh ] && source /usr/local/opt/antidote/share/antidote/antidote.zsh
-[ -f /opt/homebrew/opt/antidote/share/antidote/antidote.zsh ] && source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
-# Non-Homebrew installs (e.g. Linux / GitHub Codespaces), see: https://antidote.sh/install
-[ -f ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh ] && source ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh
-(( $+functions[antidote] )) && antidote load
+# Antidote: source a statically-generated plugin bundle for fast startup, only
+# loading antidote itself to regenerate the bundle when the plugin list
+# (~/.zsh_plugins.txt) changes. See: https://getantidote.github.io/usage#static
+zsh_plugins=${ZDOTDIR:-$HOME}/.zsh_plugins
+if [[ -f ${zsh_plugins}.txt && ! ${zsh_plugins}.zsh -nt ${zsh_plugins}.txt ]]; then
+	[ -f /usr/local/opt/antidote/share/antidote/antidote.zsh ] && source /usr/local/opt/antidote/share/antidote/antidote.zsh
+	[ -f /opt/homebrew/opt/antidote/share/antidote/antidote.zsh ] && source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
+	# Non-Homebrew installs (e.g. Linux / GitHub Codespaces), see: https://antidote.sh/install
+	[ -f ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh ] && source ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh
+	(( $+functions[antidote] )) && antidote bundle <${zsh_plugins}.txt >|${zsh_plugins}.zsh
+fi
+[ -f ${zsh_plugins}.zsh ] && source ${zsh_plugins}.zsh
 
 # Starship
 command -v starship >/dev/null && eval "$(starship init zsh)"
